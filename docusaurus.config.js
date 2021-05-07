@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Automated Technical Solutions',
-  tagline: 'We solve problems and teach you how to',
+  title: 'Automated Tech Solutions',
+  tagline: 'We solve problems and show you how',
   url: 'https://automatedtechnicalsolutions.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -8,9 +8,9 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Automated Tech Solutions',
+      title: 'ATS',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Automated Tech Solutions',
         src: 'img/logo.svg',
       },
       links: [
@@ -70,7 +70,7 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/lreynolds188',
             },
           ],
         },
