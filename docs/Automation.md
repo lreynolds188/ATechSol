@@ -1,0 +1,4 @@
+---
+id: Automation
+title: Automation
+---
