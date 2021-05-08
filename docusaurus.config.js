@@ -44,6 +44,11 @@ module.exports = {
           title: 'Links',
           items: [
             {
+              label: 'Terms of Service',
+              to: 'docs/Terms of Service',
+              activeBasePath: 'docs',
+            }
+            {
               label: 'Privacy Policy',
               to: 'docs/Privacy Policy',
               activeBasePath: 'docs',
@@ -65,9 +70,6 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // editUrl:
-          //  'https://github.com/lreynolds188/ATS/edit/master/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
