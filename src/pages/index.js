@@ -8,22 +8,20 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Easy to Use</>,
+    title: <>Helping you</>,
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        My goal is to provide the best solutions to a range of technical and operating issues as well as a guided explanation that will help you understand and resolve these issues for yourself and your team in the future.
       </>
     ),
   },
   {
-    title: <>Focus on What Matters</>,
+    title: <>Automating</>,
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Improving productivity and cutting costs by removing unnecessary products, services, and dependencies with the use of IoT devices and Open Source tools where desired and possible.
       </>
     ),
   },
