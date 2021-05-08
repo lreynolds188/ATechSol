@@ -17,7 +17,17 @@ module.exports = {
         {
           to: 'docs/Nextcloud Server Ubuntu 20.04',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Guides',
+          position: 'left',
+        },
+        {
+          href: 'https://thereynolds.com.au',
+          label: 'Team',
+          position: 'left',
+        },
+        {
+          href: 'https://thereynolds.com.au',
+          label: 'Contact',
           position: 'left',
         },
         {
