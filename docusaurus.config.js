@@ -4,8 +4,8 @@ module.exports = {
   url: 'https://automatedtechnicalsolutions.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Automated Tech Solutions', // Usually your GitHub org/user name.
+  projectName: 'Automated Tech Solutions', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'ATS',
@@ -15,7 +15,7 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/Nextcloud Server Ubuntu 20.04',
+          to: 'docs/Welcome',
           activeBasePath: 'docs',
           label: 'Guides',
           position: 'left',
@@ -41,15 +41,15 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Links',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/doc1',
+              label: 'Privacy Policy',
+              to: 'docs/Privacy Policy',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2',
+              label: 'Disclaimer',
+              to: 'docs/Disclaimer',
             },
           ],
         },
@@ -65,13 +65,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/lreynolds188/ATS/edit/master/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
