@@ -17,20 +17,20 @@ const features = [
     ),
   },
   {
-    title: <>Automating</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
-    description: (
-      <>
-        Improving productivity and cutting costs by removing unnecessary products, services, and dependencies with the use of custom built IoT devices and Open Source utilities.
-      </>
-    ),
-  },
-  {
     title: <>Privacy and Security</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
         All of our solutions are tailored to your needs with special emphasis on the privacy and security of your business and personal data.
+      </>
+    ),
+  },
+  {
+    title: <>Automating</>,
+    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    description: (
+      <>
+        Improving productivity and cutting costs by removing unnecessary products, services, and dependencies with the use of custom built IoT devices and Open Source utilities.
       </>
     ),
   },
