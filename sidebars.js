@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    Introduction: ['Welcome']
+    Introduction: ['Welcome'],
     Guides: ['Nextcloud Server Ubuntu 20.04', 'GrapheneOS Pixel'],
     Software: ['Kubuntu', 'NextCloud', 'GrapheneOS'],
   },
