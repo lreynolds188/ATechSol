@@ -21,7 +21,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Improving productivity and cutting costs by removing unnecessary products, services, and dependencies with the use of IoT devices and Open Source tools where desired and possible.
+        Improving productivity and cutting costs by removing unnecessary products, services, and dependencies with the use of custom built IoT devices and Open Source utilities.
       </>
     ),
   },
