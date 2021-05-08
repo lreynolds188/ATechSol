@@ -61,7 +61,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Automated Tech Solutions, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Automated Tech Solutions`,
     },
   },
   presets: [
