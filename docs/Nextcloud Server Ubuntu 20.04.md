@@ -248,8 +248,7 @@ A list of useful open-source Android applications that extend the usability of t
 <br/><br/>
 
 <h2>References</h2>
+
 - https://llazarek.github.io/2018/08/setting-up-a-home-cloud-server-with-nextcloud.html
-<br/>
 - https://linuxize.com/post/how-to-configure-static-ip-address-on-ubuntu-20-04/
-<br/>
 - https://certbot.eff.org/lets-encrypt/ubuntufocal-nginx
