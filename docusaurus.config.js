@@ -46,10 +46,12 @@ module.exports = {
             {
               label: 'Privacy Policy',
               to: 'docs/Privacy Policy',
+              activeBasePath: 'docs',
             },
             {
               label: 'Disclaimer',
               to: 'docs/Disclaimer',
+              activeBasePath: 'docs',
             },
           ],
         },
@@ -64,8 +66,8 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/lreynolds188/ATS/edit/master/website/',
+          // editUrl:
+          //  'https://github.com/lreynolds188/ATS/edit/master/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
