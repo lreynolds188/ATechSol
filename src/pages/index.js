@@ -21,7 +21,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        All of our solutions are tailored to your needs with special emphasis on the privacy and security of your business and personal data.
+        All of our solutions are tailored to meet your needs with special emphasis on the privacy and security of your business and personal data.
       </>
     ),
   },
@@ -56,7 +56,7 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <header className={classnames('hero hero--primary', styles.heroBanner)}>
         <div className="container">
