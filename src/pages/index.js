@@ -26,12 +26,11 @@ const features = [
     ),
   },
   {
-    title: <>Powered by React</>,
+    title: <>Privacy and Security</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        All of our solutions are tailored to your needs with special emphasis on the privacy and security of your business and personal data.
       </>
     ),
   },
