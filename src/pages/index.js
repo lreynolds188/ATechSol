@@ -26,7 +26,7 @@ const features = [
     ),
   },
   {
-    title: <>Automating</>,
+    title: <>Automation</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
