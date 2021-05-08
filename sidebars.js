@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    Guides: ['Nextcloud Server Ubuntu 20.04', 'Welcome', 'doc3'],
+    Guides: ['Welcome', 'Nextcloud Server Ubuntu 20.04', 'doc3'],
     Features: ['mdx'],
   },
 };
