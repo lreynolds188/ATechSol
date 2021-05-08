@@ -141,6 +141,7 @@ Once your 2FA application is ready, go to the RealVNC website, sign in, and setu
 <br/><br/>
 
 <h2>Exposing Server to the Internet</h2>
+
 ### Port Forwarding
 In your router’s settings, configure port 80 to forward all traffic to the NginX server and port 443 to forward TCP traffic to the NginX server. For additional help please refer to your router's online manual.
 
@@ -158,6 +159,7 @@ Free DynamicDNS services such as [NoIP](https://www.noip.com/) are available and
 <br/><br/>
 
 <h2>Securing the Server</h2>
+
 ### Enable Firewall
 Enable UFW on the Host, Nextcloud, and NginX server forwarding all traffic on port 80 and all TCP traffic on 443.
 ```jsx
@@ -223,16 +225,19 @@ Use the same authenticator you installed for RealVNC to configure 2FA for your N
 <br/><br/>
 
 <h2>Android Connectivity</h2>
+
 ### Nextcloud App Code
 Navigate to your Nextcloud portal, go to Settings -> Personal -> Security. Scroll to the bottom of the page and type the name of the app you would like to grant access to. Click create new app password. Go back to the application you want to connect to your Nextcloud server, type in your username and the 29 character one time app password.
 
 <br/>
+
 ### Calendar, Contact, and Task Syncronization Client
 Install DAVx⁵ from [Playstore](https://play.google.com/store/apps/details?id=at.bitfire.davdroid&hl=en_US&gl=US) or [F-Droid](https://f-droid.org/en/packages/at.bitfire.davdroid/).
 
 Once DAVx⁵ is installed, login to the app using a Nextcloud app code and allow the permissions you require. Once the app is finished configuring it will automatically sync all of your calendar events, contacts, and tasks with the phone's system apps.
 
 <br/>
+
 ### Recommended Applications
 A list of useful open-source Android applications that extend the usability of the Nextcloud server.
 - Nextcloud Syncronization Client available on [Playstore](https://play.google.com/store/apps/details?id=com.nextcloud.client&hl=en_US&gl=US) or [F-Droid](https://f-droid.org/en/packages/com.nextcloud.client/)
