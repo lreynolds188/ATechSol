@@ -1,202 +1,250 @@
+# Nextcloud Server Ubuntu 20.04
 ---
-id: doc1
-title: Style Guide
-sidebar_label: Style Guide
----
+<i>February 15, 2021</i>
 
-You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
+In my pursuit to find a self-hosted replacement for my current cloud based providers such as OneNote, Google Drive, Photos, Calendar, and Contacts i've decided to setup a Nextcloud server. The server will be responsible for hosting and syncing my documents, photos, and other important day to day data between my devices. The server features a fully qualified domain name, Nginx reverse proxy, SSL encryption, 2FA, Android connectivity, and VNC for remote maintenance.
 
-## Markdown Syntax
 
-To serve as an example page when styling markdown based Docusaurus sites.
+##### Requirements
+1. A computer to use as a server (I'm using an old Surface Pro).
 
-## Headers
+2. A static IP and domain name or DynamicDNS.
 
-# H1 - Create the best documentation
+3. Access to your router's control panel.
 
-## H2 - Create the best documentation
+<br/><br/>
 
-### H3 - Create the best documentation
+<h2>Local Cloud Setup</h2>
 
-#### H4 - Create the best documentation
+### Virtual Machines
+There will be 2 virtual machines that will be responsible for hosting your server. The first of these machines will store your Nextcloud instance, while the second will store the NginX reverse proxy. I decided to install Ubuntu 20.04 on my host machine but you may use whatever OS you prefer. Once the server has a fresh OS installation, install VirtualBox or your preferred virtualization software and download the latest image of Ubuntu Server (.iso).
 
-##### H5 - Create the best documentation
+Once the virutalization software is installed create 2 new virtual machines. Set both the server hard drives to be dynamically allocated, giving the NginX server a maximum of 8gb and the Nextcloud server whatever remaining space is available, preferably leaving around 10gb free for the host machine.
 
-###### H6 - Create the best documentation
+After creating the virtual machines, go into the network settings of each and set the mode to "bridged". This sets the machines as independent hosts on the network allowing visibility.
 
----
+<br/>
 
-## Emphasis
+### Nextcloud Server Setup
+Start up the nextcloud server and select the ubuntu server image when prompted for a startup disk. This will load up the ubuntu server image and begin the installation process. The only extra step to do during the installation is to select the Nextcloud snap when prompted with the list of commonly installed snaps.
 
-Emphasis, aka italics, with _asterisks_ or _underscores_.
+<br/>
 
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
----
-
-## Lists
-
-1. First ordered list item
-1. Another item ⋅⋅\* Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number ⋅⋅1. Ordered sub-list
-1. And another item.
-
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
-
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅ ⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅ ⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
-
-- Unordered list can use asterisks
-
-* Or minuses
-
-- Or pluses
-
----
-
-## Links
-
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. http://www.example.com or <http://www.example.com> and sometimes example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-
----
-
-## Images
-
-Here's our logo (hover to see the title text):
-
-Inline-style: ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 1')
-
-Reference-style: ![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'Logo Title Text 2'
-
----
-
-## Code
-
-```javascript
-var s = 'JavaScript syntax highlighting';
-alert(s);
+### Reverse Proxy Server Setup
+Start up the reverse proxy server and go through the motions of installing ubuntu server, this time not selecting any snaps when prompted. Once logged in, install NginX with 
+```jsx
+sudo apt install nginx
 ```
 
-```python
-s = "Python syntax highlighting"
-print(s)
+Once NginX is installed create a config file for your domain (substituting [your-domain.url] as needed) 
+```jsx
+sudo nano /etc/nginx/sites-enabled/[your-domain.url]
 ```
 
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
+and edit it to appear as follows (substituting [your-domain.url] and [your-nextcloud-ip] as needed):
+```jsx
+server {
+     listen 80;
+     server_name [your-domain.url];
+     return 301 https://$server_name:443$request_uri;
+}
 
-```js {2}
-function highlightMe() {
-  console.log('This line can be highlighted!');
+server {
+     listen 443 ssl;
+     server_name [your-domain.url];
+
+     ssl_certificate /etc/letsencrypt/live/[your-domain.url]/fullchain.pem;
+     ssl_certificate_key /etc/letsencrypt/live/[your-domain.url]/privkey.com;
+
+     add_header Strict-Transport-Security 'max-age=31536000; includeSubDomains; preload';
+     add_header X-XSS-Protection "1; mode=block" always;
+     add_header X-Frame-Options "SAMEORIGIN" always;
+     add_header X-Content-Type-Options "nosniff" always;
+     add_header X-Permitted-Cross-Domain
+     add_header X-Robots-Tag "none" always;
+     add_header Referrer-Policy "no-referrer" always;
+    
+     client_max_body_size 10G;
+     client_body_buffer_size 400M;
+
+     location = /.well-known/carddav {
+        return 301 $scheme://$host/remote.php/dav;
+     }
+
+     location = /.well-known/caldav {
+        return 301 $scheme://$host/remote.php/dav;
+     }
+
+     location = / {
+          proxy_headers_hash_max_size 512;
+          proxy_headers_hash_bucket_size 64;
+          proxy_set_header Host $host;
+          proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+
+          add_header Front-End-Https on;
+          proxy_pass http://[your-nextcloud-ip];
+     }
 }
 ```
+NOTE: This configuration file is designed for a HTTPS connection and will not function correctly until SSL encryption has been configured.
 
----
+<br/>
 
-## Tables
+### Setting Static IP's for the VM's
+To set a static IP on each of the virtual machines boot them up and run the following command to install net-tools. 
+```jsx
+sudo apt install net-tools
+```
 
-Colons can be used to align columns.
+Once net-tools is installed run `ifconfig` and note down the current IP address of the virtual machine.
 
-| Tables        |      Are      |   Cool |
-| ------------- | :-----------: | -----: |
-| col 3 is      | right-aligned | \$1600 |
-| col 2 is      |   centered    |   \$12 |
-| zebra stripes |   are neat    |    \$1 |
+Next we will modify the netplan .yaml file. 
+```jsx
+sudo nano /etc/netplan/00-installer-config.yaml
+```
 
-There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
+Modifying the file to appear as follows (replacing [ip-address] and [gateway]):
+```jsx
+network:
+version: 2
+renderer: network
+     ethernets:
+         ens3:
+             dhcp4: no
+             addresses:
+                 - [ip-address]/24
+             gateway4: [gateway]
+             nameservers:
+                 addresses: [8.8.8.8, 1.1.1.1]
+```
 
-| Markdown | Less      | Pretty     |
-| -------- | --------- | ---------- |
-| _Still_  | `renders` | **nicely** |
-| 1        | 2         | 3          |
+Ctrl-X, Y, Enter to save and exit. Then run: 
+```jsx
+sudo netplan apply
+```
+<br/><br/>
 
----
+<h2>Remote Maintenance</h2>
+### RealVNC Server Setup
+RealVNC Server can be found [here](https://www.realvnc.com/en/connect/download/vnc/)
 
-## Blockquotes
+<br/>
 
-> Blockquotes are very handy in email to emulate reply text. This line is part of the same quote.
+### RealVNC Viewer Setup
+RealVNC Viewer can be found [here](https://www.realvnc.com/en/connect/download/viewer/)
 
-Quote break.
+<br/>
 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can _put_ **Markdown** into a blockquote.
+### 2-Factor Authentication
+Install FreeOTP+ or your chosen 2FA code generator from [Playstore](https://play.google.com/store/apps/details?id=org.liberty.android.freeotpplus&hl=en_US&gl=US) or [F-Droid](https://f-droid.org/en/packages/org.liberty.android.freeotpplus/).
 
----
+Once your 2FA application is ready, go to the RealVNC website, sign in, and setup 2FA. 
 
-## Inline HTML
+<br/><br/>
 
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
+<h2>Exposing Server to the Internet</h2>
+### Port Forwarding
+In your router’s settings, configure port 80 to forward all traffic to the NginX server and port 443 to forward TCP traffic to the NginX server. For additional help please refer to your router's online manual.
 
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
+<br/>
 
----
+### Static IP or Dynamic DNS
+##### Option 1: Static IP & Domain Name
+Configure A records in your domain's DNS configuration portal to point at your public static IP address. For help finding your public IP address click [here](https://www.whatismyip.com/).
 
-## Line Breaks
+<br/>
 
-Here's a line for us to start with.
+##### Option 2: Dynamic DNS
+Free DynamicDNS services such as [NoIP](https://www.noip.com/) are available and may provide a suitable replacement for a domain name and static IP.
 
-This line is separated from the one above by two newlines, so it will be a _separate paragraph_.
+<br/><br/>
 
-This line is also a separate paragraph, but... This line is only separated by a single newline, so it's a separate line in the _same paragraph_.
+<h2>Securing the Server</h2>
+### Enable Firewall
+Enable UFW on the Host, Nextcloud, and NginX server forwarding all traffic on port 80 and all TCP traffic on 443.
+```jsx
+sudo ufw enable && sudo ufw allow 80 && sudo ufw allow 443/tcp
+```
 
----
+Allow realVNC traffic on the Host machine.
+```jsx
+sudo ufw allow realvnc-vnc-server
+```
+<br/>
 
-## Admonitions
+### SSL Encryption
+The last step that should really be done if the nextcloud will be accessed over the internet is to set up SSL encryption so that the server can be accessed through HTTPS. This will ensure that your files etc will be encrypted en route to and from the server though not on the server, which is fine since an account with a password is required to access it.
 
-:::note
+This is actually pretty easy to do thanks to Let's Encrypt. Ensure port 443 is forwarding in your router's configuration as that's the port used for SSL.
 
-This is a note
+The certificates need to be set up on the nginx server, because that will be the terminal for ssl connections. So log into the NginX server and install Let's Encrypt's certbot by typing:
+```jsx
+sudo snap install --classic certbot
+```
 
-:::
+Once certbot is installed, create a config file for NginX (substituting [your-domain.url] as needed).
+```jsx
+sudo certbot --nginx -d [your-domain.url]
+```
 
-:::tip
+Install the proxy's config file (ensure to type full pathing or the link will fail).
+```jsx
+sudo ln -s /etc/nginx/sites-available/[your-domain.url] /etc/nginx/sites-enabled/
+```
 
-This is a tip
+Finally, restart nginx
+```jsx
+sudo service nginx restart
+```
+<br/>
 
-:::
+### Automatic Certificate Renewal
+The SSL certificates expire every 90 days, but they can be easily and non-interactively renewed with
+```jsx
+sudo certbot renew
+```
 
-:::important
+So just set up a cron job to do this every other month or so.
+```jsx
+sudo crontab -e
+```
 
-This is important
+Adding the line
+```jsx
+0 0 1 */2 * /usr/bin/certbot -q renew
+```
 
-:::
+Which will automatically renew the certificates at midnight on the first of every other month.
+<br/><br/>
 
-:::caution
+### 2-Factor Authentication
+Login to your Nextcloud instance, click your profile at the top right and select Apps. Go to Security and download and enable Two-Factor TOTP Provider.
+Once the application is installed, go to Settings -> Security -> Enable TOTP
+Use the same authenticator you installed for RealVNC to configure 2FA for your Nextcloud server.
 
-This is a caution
+<br/><br/>
 
-:::
+<h2>Android Connectivity</h2>
+### Nextcloud App Code
+Navigate to your Nextcloud portal, go to Settings -> Personal -> Security. Scroll to the bottom of the page and type the name of the app you would like to grant access to. Click create new app password. Go back to the application you want to connect to your Nextcloud server, type in your username and the 29 character one time app password.
 
-:::warning
+<br/>
+### Calendar, Contact, and Task Syncronization Client
+Install DAVx⁵ from [Playstore](https://play.google.com/store/apps/details?id=at.bitfire.davdroid&hl=en_US&gl=US) or [F-Droid](https://f-droid.org/en/packages/at.bitfire.davdroid/).
 
-This is a warning
+Once DAVx⁵ is installed, login to the app using a Nextcloud app code and allow the permissions you require. Once the app is finished configuring it will automatically sync all of your calendar events, contacts, and tasks with the phone's system apps.
 
-:::
+<br/>
+### Recommended Applications
+A list of useful open-source Android applications that extend the usability of the Nextcloud server.
+- Nextcloud Syncronization Client available on [Playstore](https://play.google.com/store/apps/details?id=com.nextcloud.client&hl=en_US&gl=US) or [F-Droid](https://f-droid.org/en/packages/com.nextcloud.client/)
+- Nextcloud Notes available on [Playstore](https://play.google.com/store/apps/details?id=it.niedermann.owncloud.notes&hl=en_US&gl=US) or [F-Droid](https://f-droid.org/en/packages/it.niedermann.owncloud.notes/)
+- Tasks.org available on [Playstore](https://play.google.com/store/apps/details?id=org.myklos.inote&hl=en_US&gl=US) or [F-Droid](https://f-droid.org/en/packages/org.tasks/)
+- Simple Calendar Pro available on [Playstore](https://play.google.com/store/apps/details?id=com.simplemobiletools.calendar&hl=en_US&gl=US) or [F-Droid](https://f-droid.org/en/packages/com.simplemobiletools.calendar.pro/)
+
+<br/><br/>
+
+<h2>References</h2>
+- https://llazarek.github.io/2018/08/setting-up-a-home-cloud-server-with-nextcloud.html
+- https://linuxize.com/post/how-to-configure-static-ip-address-on-ubuntu-20-04/
+- https://certbot.eff.org/lets-encrypt/ubuntufocal-nginx
