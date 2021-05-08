@@ -17,12 +17,18 @@ module.exports = {
         {
           to: 'docs/Welcome',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'About',
           position: 'left',
         },
         {
           href: 'https://thereynolds.com.au',
           label: 'Team',
+          position: 'left',
+        },
+        {
+          to: 'docs/Automation',
+          activeBasePath: 'docs',
+          label: 'Services',
           position: 'left',
         },
         {
