@@ -15,7 +15,7 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/doc1',
+          to: 'docs/Nextcloud Server Ubuntu 20.04',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
