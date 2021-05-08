@@ -69,7 +69,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/welcome')}>
-              Get Started
+              Learn More
             </Link>
           </div>
         </div>
