@@ -26,7 +26,7 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://thereynolds.com.au/resume',
+          href: 'mailto:luke@automatedtechnicalsolutions.com',
           label: 'Contact',
           position: 'left',
         },
