@@ -41,6 +41,12 @@ module.exports = {
           label: 'GitHub',
           position: 'right',
         },
+        {
+          to: 'docs/Donate',
+          activeBasePath: 'docs',
+          label: 'Donate',
+          position: 'left',
+        },
       ],
     },
     footer: {
