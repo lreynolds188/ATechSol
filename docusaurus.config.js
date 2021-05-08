@@ -26,7 +26,7 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://thereynolds.com.au',
+          href: 'https://thereynolds.com.au/resume',
           label: 'Contact',
           position: 'left',
         },
