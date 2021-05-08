@@ -47,7 +47,7 @@ module.exports = {
               label: 'Terms of Service',
               to: 'docs/Terms of Service',
               activeBasePath: 'docs',
-            }
+            },
             {
               label: 'Privacy Policy',
               to: 'docs/Privacy Policy',
