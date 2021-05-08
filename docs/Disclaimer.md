@@ -5,6 +5,8 @@ title: Disclaimer
 
 <i>8 May 2021</i>
 
+<br/>
+
 By using our website, you hereby consent to our disclaimer and agree to its terms.
 
 All the information on this website is published in good faith and for general information purpose only. www.automatedtechsolutions.com does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website (www.automatedtechsolutions.com), is strictly at your own risk. www.automatedtechsolutions.com will not be liable for any losses and/or damages in connection with the use of our website.
