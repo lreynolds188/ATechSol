@@ -11,7 +11,7 @@ module.exports = {
       title: 'ATS',
       logo: {
         alt: 'Automated Tech Solutions',
-        src: 'img/logo.svg',
+        src: 'img/favicon.ico',
       },
       links: [
         {
