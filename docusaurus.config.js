@@ -37,15 +37,15 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://github.com/lreynolds188',
-          label: 'GitHub',
-          position: 'right',
-        },
-        {
           to: 'docs/Donate',
           activeBasePath: 'docs',
           label: 'Donate',
           position: 'left',
+        },
+        {
+          href: 'https://github.com/lreynolds188',
+          label: 'GitHub',
+          position: 'right',
         },
       ],
     },
