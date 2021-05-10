@@ -19,7 +19,7 @@ We don’t.
 
 #### Why We Collect Your Data?
 
-We aren’t.
+We won’t.
 
 <br/>
 
