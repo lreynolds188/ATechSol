@@ -169,10 +169,6 @@ Enable UFW on the Host, Nextcloud, and NginX server forwarding all traffic on po
 sudo ufw enable && sudo ufw allow 80 && sudo ufw allow 443/tcp
 ```
 
-Allow realVNC traffic on the Host machine.
-```jsx
-sudo ufw allow realvnc-vnc-server
-```
 <br/>
 
 ### SSL Encryption
