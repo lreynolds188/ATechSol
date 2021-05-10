@@ -21,18 +21,22 @@ We aren’t.
 
 #### Safeguarding and Securing the Data
 
-What data.
+What data?
 
 <br/>
 
 #### Our Cookie Policy?
 
-What cookies.
+What cookies?
 
 <br/>
 
 #### Links to Other Websites?
 
 We don’t control what they do, read their privacy policy.
+
+<br/>
+
+#### Contact
 
 If you require any more information or have any questions about our site's privacy policy, please feel free to contact us [here](mailto:luke@automatedtechnicalsolutions.com).
