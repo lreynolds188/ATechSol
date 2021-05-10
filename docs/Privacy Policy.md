@@ -7,6 +7,8 @@ This privacy policy will help you understand how www.automatedtechnicalsolutions
 
 We reserve the right to change this policy at any given time, of which you will be promptly updated. If you want to make sure that you are up to date with the latest changes, we advise you to frequently visit this page.
 
+<br/>
+
 #### What User Data We Collect?
 
 We don’t.
