@@ -26,3 +26,5 @@ What cookies.
 #### Links to Other Websites?
 
 We don’t control what they do, read their privacy policy.
+
+If you require any more information or have any questions about our site's privacy policy, please feel free to contact us [here](mailto:luke@automatedtechnicalsolutions.com).
