@@ -11,17 +11,25 @@ We reserve the right to change this policy at any given time, of which you will 
 
 We don’t.
 
+<br/>
+
 #### Why We Collect Your Data?
 
 We aren’t.
+
+<br/>
 
 #### Safeguarding and Securing the Data
 
 What data.
 
+<br/>
+
 #### Our Cookie Policy?
 
 What cookies.
+
+<br/>
 
 #### Links to Other Websites?
 
