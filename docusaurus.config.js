@@ -56,11 +56,6 @@ module.exports = {
           title: 'Links',
           items: [
             {
-              label: 'Terms of Service',
-              to: 'docs/Terms of Service',
-              activeBasePath: 'docs',
-            },
-            {
               label: 'Privacy Policy',
               to: 'docs/Privacy Policy',
               activeBasePath: 'docs',
