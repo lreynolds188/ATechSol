@@ -3,5 +3,26 @@ id: Privacy Policy
 title: Privacy Policy
 ---
 
+This privacy policy will help you understand how [www.automatedtechnicalsolutions.com] ("us", "we", "our") uses and protects the data you provide to us when you visit and use [www.automatedtechnicalsolutions.com]("website", "service").
 
-Coming soon.
+We reserve the right to change this policy at any given time, of which you will be promptly updated. If you want to make sure that you are up to date with the latest changes, we advise you to frequently visit this page.
+
+#### What User Data We Collect?
+
+We don’t.
+
+#### Why We Collect Your Data?
+
+We aren’t.
+
+#### Safeguarding and Securing the Data
+
+What data.
+
+#### Our Cookie Policy?
+
+What cookies.
+
+#### Links to Other Websites?
+
+We don’t control what they do, read their privacy policy.
