@@ -21,7 +21,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        All of our solutions are tailored to meet your needs with special emphasis on the privacy and security of your business and personal data.
+        All of our solutions are tailored to meet your needs with emphasis on the privacy and security of your business and personal data.
       </>
     ),
   },
