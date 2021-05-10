@@ -2,3 +2,7 @@
 id: Information
 title: Information
 ---
+
+We will guide you through our process of resolving the issue and explain it to you in a way that will allow you to understand and resolve it and other problems like it in the future.
+
+This is achievable for everyone no matter your current technical knowledge and will be explained in terms you can understand.
