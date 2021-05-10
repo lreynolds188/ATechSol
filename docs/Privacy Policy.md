@@ -38,6 +38,7 @@ What cookies?
 #### Links to Other Websites?
 
 We don’t control what they do, read their privacy policy.
+PayPal may collect
 
 <br/>
 
