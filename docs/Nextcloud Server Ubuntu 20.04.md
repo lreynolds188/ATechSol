@@ -243,10 +243,9 @@ Once DAVx⁵ is installed, login to the app using a Nextcloud app code and allow
 
 ### Recommended Applications
 A list of useful open-source Android applications that extend the usability of the Nextcloud server.
-- Nextcloud Syncronization Client available on [Playstore](https://play.google.com/store/apps/details?id=com.nextcloud.client&hl=en_US&gl=US) or [F-Droid](https://f-droid.org/en/packages/com.nextcloud.client/)
-- Nextcloud Notes available on [Playstore](https://play.google.com/store/apps/details?id=it.niedermann.owncloud.notes&hl=en_US&gl=US) or [F-Droid](https://f-droid.org/en/packages/it.niedermann.owncloud.notes/)
-- Tasks.org available on [Playstore](https://play.google.com/store/apps/details?id=org.myklos.inote&hl=en_US&gl=US) or [F-Droid](https://f-droid.org/en/packages/org.tasks/)
-- Simple Calendar Pro available on [Playstore](https://play.google.com/store/apps/details?id=com.simplemobiletools.calendar&hl=en_US&gl=US) or [F-Droid](https://f-droid.org/en/packages/com.simplemobiletools.calendar.pro/)
+- Nextcloud Syncronization Client available on the [Playstore](https://play.google.com/store/apps/details?id=com.nextcloud.client&hl=en_US&gl=US)
+- Joplin Notes available on the [Playstore](https://play.google.com/store/apps/details?id=net.cozic.joplin&hl=en_US&gl=US)
+- Simple Calendar Pro available on the [Playstore](https://play.google.com/store/apps/details?id=com.simplemobiletools.calendar&hl=en_US&gl=Us)
 
 <br/><br/>
 
