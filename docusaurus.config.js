@@ -70,6 +70,11 @@ module.exports = {
               to: 'docs/Disclaimer',
               activeBasePath: 'docs',
             },
+            {
+              label: 'Donate',
+              to: 'docs/Donate',
+              activeBasePath: 'docs',
+            },
           ],
         },
       ],
