@@ -3,7 +3,7 @@ id: Privacy Policy
 title: Privacy Policy
 ---
 
-<i>10 May 2021<i>
+<i>10 May 2021</i>
 
 This privacy policy will help you understand how www.automatedtechnicalsolutions.com ("us", "we", "our") uses and protects the data you provide to us when you visit and use [www.automatedtechnicalsolutions.com]("website", "service").
 
