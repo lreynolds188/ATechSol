@@ -5,5 +5,6 @@ module.exports = {
     Service_Providers: ['DreamHost', 'Cloudflare', 'Vercel', 'GitHub'],
     Guides: ['Nextcloud Server Ubuntu 20.04', 'GrapheneOS Installation'],
     Our_Services: ['Implementation', 'Information', 'Automation'],
+    Our_Cause: ['Donate']
   },
 };
