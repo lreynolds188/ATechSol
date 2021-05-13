@@ -4,6 +4,6 @@ title: Implementation
 ---
 
 We can help to implement any:
-- [Automation needs](Automation.md)
-- [Open source software](Kubuntu.md) (operating system, office suite, self-hosted cloud)
+- [Open source software](Kubuntu.md) (operating systems, office suites, self-hosted cloud)
 - [Business infrastructure](Dreamhost.md) (domain, website, email)
+- [Automation needs](Automation.md)
