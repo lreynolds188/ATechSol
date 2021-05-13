@@ -4,7 +4,6 @@ title: Donate
 ---
 
 If you appreciate the information and/or services we provide feel free to contact us or donate to our cause (a free, open source, and informed world) and help keep this site running:
-
 <br/>
 
 <pre>
