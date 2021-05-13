@@ -3,7 +3,7 @@ id: Welcome
 title: Welcome
 ---
 
-Here you can find a list of open source software and providers that we have discovered in our search for information privacy and security. We have included a list of our services incase you need assistance. We will endeavour to continue developing guides for these tools and services to allow visitors to better inform themselves of their options.
+Here you can find a list of open source software and reliable providers we have discovered in our search for information privacy and security. We have included a list of our services in case you need assistance. We will endeavour to continue developing guides for these tools and services to allow visitors to better inform themselves of their options.
 
 We are currently only servicing a small customer base in the Queensland, Australia region in addition to some remote support where applicable.
 
