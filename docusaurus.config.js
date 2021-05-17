@@ -32,7 +32,8 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'mailto:luke@automatedtechnicalsolutions.com',
+          href: 'docs/Contact',
+          activeBasePath: 'docs',
           label: 'Contact',
           position: 'left',
         },
