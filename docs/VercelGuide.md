@@ -1,5 +1,5 @@
 ---
-id: Vercel
+id: VercelGuide
 title: GitHub-Hosted Website Deployment With Vercel
 author: Luke Reynolds
 author_title: Owner @ Automated Tech Solutions
