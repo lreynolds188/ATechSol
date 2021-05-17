@@ -5,5 +5,5 @@ module.exports = {
     'Service Providers': ['DreamHost', 'Cloudflare', 'GitHub', 'Vercel'],
     'Our Services': ['Implementation', 'Information', 'Automation'],
     'Our Cause': ['Donate']
-  
+  },
 };
