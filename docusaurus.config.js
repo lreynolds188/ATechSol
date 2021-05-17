@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://automatedtechnicalsolutions.com',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'Automated Tech Solutions', // Usually your GitHub org/user name.
+  organizationName: 'ATS', // Usually your GitHub org/user name.
   projectName: 'Automated Tech Solutions', // Usually your repo name.
   themeConfig: {
     navbar: {
