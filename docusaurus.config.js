@@ -86,7 +86,7 @@ module.exports = {
         },
         blog: {
           showReadingTime: true,
-          blogSidebarCount: 'ALL',
+          sidebarPath: require.resolve('./blogsidebar.js'),
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
