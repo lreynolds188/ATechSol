@@ -8,6 +8,6 @@ module.exports = {
   },
   blog: {
     Introduction: ['Welcome'],
-    Guides: ['NextcloudServer'],
+    Guides: ['Nextcloud_Server', 'GrapheneOS_Install'],
   },
 };
