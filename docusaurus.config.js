@@ -27,14 +27,14 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://thereynolds.com.au',
-          label: 'Team',
-          position: 'left',
-        },
-        {
           to: 'docs/Implementation',
           activeBasePath: 'docs',
           label: 'Services',
+          position: 'left',
+        },
+        {
+          href: 'https://thereynolds.com.au',
+          label: 'Team',
           position: 'left',
         },
         {
