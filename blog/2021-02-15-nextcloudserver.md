@@ -1,3 +1,13 @@
+---
+id: NextcloudServer
+title: Nextcloud Server Ubuntu 20.04
+author: Luke Reynolds
+author_title: Owner @ Automated Tech Solutions
+author_url: https://github.com/lreynolds188
+author_image_url: https://thereynolds.com.au/_next/image?url=%2Fprofile.jpg&w=256&q=75
+tags: [nextcloud, server, ubuntu, automated tech solutions, ats]
+---
+
 <i>15 February 2021, Luke Reynolds</i>
 
 <br/><br/>
