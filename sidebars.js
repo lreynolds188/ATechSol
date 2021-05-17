@@ -7,7 +7,7 @@ module.exports = {
     'Our Cause': ['Donate']
   },
   blog: {
-    Introduction: ['Welcome'],
-    Guides: ['NextcloudServer'],
+    Introduction: ['blog/Welcome'],
+    Guides: ['blog/NextcloudServer'],
   },
 };
