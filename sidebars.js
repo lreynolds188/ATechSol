@@ -1,9 +1,9 @@
 module.exports = {
   docs: {
     Introduction: ['Welcome'],
-    Open_Source_Software: ['Kubuntu', 'Nextcloud', 'GrapheneOS', 'LibreOffice', 'Joplin', 'InvoiceNinja'],
-    Service_Providers: ['DreamHost', 'Cloudflare', 'GitHub', 'Vercel'],
-    Our_Services: ['Implementation', 'Information', 'Automation'],
-    Our_Cause: ['Donate']
+    'Open Source Software': ['Kubuntu', 'Nextcloud', 'GrapheneOS', 'LibreOffice', 'Joplin', 'InvoiceNinja'],
+    'Service Providers': ['DreamHost', 'Cloudflare', 'GitHub', 'Vercel'],
+    'Our Services': ['Implementation', 'Information', 'Automation'],
+    'Our Cause': ['Donate']
   },
 };
