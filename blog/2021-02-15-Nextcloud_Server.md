@@ -18,6 +18,8 @@ In my pursuit to find a self-hosted replacement for my current cloud based provi
 
 3. Access to your router's control panel.
 
+<!--truncate-->
+
 <br/><br/>
 
 <h2>Local Cloud Setup</h2>
