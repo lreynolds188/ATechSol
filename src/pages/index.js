@@ -12,7 +12,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Our goal is to provide the highest quality and simplest solutions for a range of technical and operating issues as well as a guided explanation that will help you and your team understand and resolve these issues in the future.
+        Our goal is to provide the highest quality and simplest solutions for a range of technical and operating issues as well as a guided explanation that will help you and your team understand and resolve them in the future.
       </>
     ),
   },
