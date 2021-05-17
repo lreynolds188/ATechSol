@@ -21,6 +21,12 @@ module.exports = {
           position: 'left',
         },
         {
+          to: 'blog/Welcome',
+          activeBasePath: 'blog',
+          label: 'Guides',
+          position: 'left',
+        },
+        {
           href: 'https://thereynolds.com.au',
           label: 'Team',
           position: 'left',
