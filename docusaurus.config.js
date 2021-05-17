@@ -21,8 +21,7 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'blog/Welcome',
-          activeBasePath: 'blog',
+          to: 'blog',
           label: 'Guides',
           position: 'left',
         },
