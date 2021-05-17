@@ -21,7 +21,7 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'blog',
+          to: 'docs/Guides',
           label: 'Guides',
           position: 'left',
         },
@@ -82,10 +82,6 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-        },
-        blog: {
-          blogSidebarCount: 'ALL',
-          blogSidebarTitle: 'All our posts',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
