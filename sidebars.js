@@ -6,4 +6,8 @@ module.exports = {
     'Our Services': ['Implementation', 'Information', 'Automation'],
     'Our Cause': ['Donate']
   },
+  blog: {
+    Introduction: ['Welcome'],
+    Guides: ['NextcloudServer'],
+  },
 };
