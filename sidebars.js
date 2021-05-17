@@ -6,4 +6,8 @@ module.exports = {
     'Our Services': ['Implementation', 'Information', 'Automation'],
     'Our Cause': ['Donate'],
   },
+  guides: {
+    Introduction: ['Guides'],
+    Guides: ['NextcloudGuide', 'GrapheneOSGuide', 'JoplinGuide', 'LibreOfficeGuide', 'VercelGuide'],
+  }
 };
