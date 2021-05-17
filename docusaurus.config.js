@@ -6,7 +6,6 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'ATS', // Usually your GitHub org/user name.
   projectName: 'Automated Tech Solutions', // Usually your repo name.
-  blogSidebarCount: 'ALL',
   themeConfig: {
     navbar: {
       title: 'ATS',
@@ -84,6 +83,9 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+        },
+        blog: {
+          sidebarPath: require.resolve('./blogsidebar.js'),
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
