@@ -8,6 +8,6 @@ module.exports = {
   },
   guides: {
     Introduction: ['Guides'],
-    Guides: ['NextcloudGuide', 'GrapheneOSGuide', 'JoplinGuide', 'LibreOfficeGuide', 'VercelGuide'],
+    Guides: ['Nextcloud Server Ubuntu 20.04', 'GrapheneOSGuide', 'JoplinGuide', 'LibreOfficeGuide', 'VercelGuide'],
   }
 };
