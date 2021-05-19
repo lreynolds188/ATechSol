@@ -3,6 +3,6 @@ id: Information
 title: Information
 ---
 
-We will guide you through the process of resolving an issue and explain it to you in a way that will allow you to understand and resolve it and other problems like it in the future.
+We can help to resolve a problem and explain the process in a way that will allow you to understand so you can resolve it and other problems like it in the future.
 
-This is achievable for anyone no matter their current technical knowledge.
+This is applicable for those with all ranges of technical skill & knowledge from beginner to adept.
