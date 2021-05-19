@@ -1,6 +1,6 @@
 module.exports = {
   docs: {
-    'Welcome',
+    'Welcome'
     'Open Source Software': ['Kubuntu', 'GrapheneOS', 'Brave', 'LibreOffice', 'Nextcloud', 'Joplin', 'InvoiceNinja'],
     'Service Providers': ['DreamHost', 'Cloudflare', 'GitHub', 'Vercel'],
     'Our Services': ['Implementation', 'Information', 'Automation'],
