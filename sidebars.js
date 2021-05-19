@@ -1,13 +1,41 @@
 module.exports = {
-  docs: {
-    ['Welcome'],
-    'Open Source Software': ['Kubuntu', 'GrapheneOS', 'Brave', 'LibreOffice', 'Nextcloud', 'Joplin', 'InvoiceNinja'],
-    'Service Providers': ['DreamHost', 'Cloudflare', 'GitHub', 'Vercel'],
-    'Our Services': ['Implementation', 'Information', 'Automation'],
-    'Our Cause': ['Donate'],
-  },
-  guides: {
-    Introduction: ['Guides'],
-    Guides: ['Nextcloud Server Ubuntu 20.04', 'GrapheneOSGuide', 'JoplinGuide', 'LibreOfficeGuide', 'VercelGuide'],
-  }
+  docs: [
+    {
+      type: 'doc',
+      label: 'Welcome',
+      items: ['Welcome'],
+    },
+    {
+      type: 'category',
+      label: 'Open Source Software',
+      items: ['Kubuntu', 'GrapheneOS', 'Brave', 'LibreOffice', 'Nextcloud', 'Joplin', 'InvoiceNinja'],
+    },
+    {
+      type: 'category',
+      label: 'Service Providers',
+      items: ['DreamHost', 'Cloudflare', 'GitHub', 'Vercel'],
+    },
+    {
+      type: 'category',
+      label: 'Our Services',
+      items: ['Implementation', 'Information', 'Automation'],
+    },
+    {
+      type: 'category',
+      label: 'Our Cause',
+      items: ['Donate'],
+    },
+  ],
+  guides: [
+    {
+      type: 'doc',
+      label: 'Welcome',
+      items: ['Guides'],
+    },
+    {
+      type: 'category',
+      label: 'Guides',
+      items: ['Nextcloud Server Ubuntu 20.04', 'GrapheneOSGuide', 'JoplinGuide', 'LibreOfficeGuide', 'VercelGuide'],
+    },
+  ]
 };
