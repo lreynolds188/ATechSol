@@ -1,6 +1,6 @@
 ---
 id: Guides
-title: Guides
+title: Welcome
 author: Luke Reynolds
 author_title: Owner @ Automated Tech Solutions
 author_url: https://github.com/lreynolds188
