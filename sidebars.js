@@ -1,6 +1,10 @@
 module.exports = {
   docs: {
-    'Welcome'
+    {
+      type: 'doc',
+      id: 'Welcome', // document id
+      label: 'Welcome', // sidebar label
+    },
     'Open Source Software': ['Kubuntu', 'GrapheneOS', 'Brave', 'LibreOffice', 'Nextcloud', 'Joplin', 'InvoiceNinja'],
     'Service Providers': ['DreamHost', 'Cloudflare', 'GitHub', 'Vercel'],
     'Our Services': ['Implementation', 'Information', 'Automation'],
