@@ -23,6 +23,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Guides',
+      collapsed: false,
       items: ['NextcloudGuide', 'GrapheneOSGuide', 'JoplinGuide', 'LibreOfficeGuide', 'VercelGuide'],
     },
   ]
