@@ -16,18 +16,14 @@ module.exports = {
       label: 'Our Services',
       items: ['Implementation', 'Information', 'Automation'],
     },
-    {
-      type: 'category',
-      label: 'Our Cause',
-      items: ['Donate'],
-    },
+    'Donate',
   ],
   guides: [
     'Guides',
     {
       type: 'category',
       label: 'Guides',
-      items: ['Nextcloud Server Ubuntu 20.04', 'GrapheneOSGuide', 'JoplinGuide', 'LibreOfficeGuide', 'VercelGuide'],
+      items: ['NextcloudGuide', 'GrapheneOSGuide', 'JoplinGuide', 'LibreOfficeGuide', 'VercelGuide'],
     },
   ]
 };
