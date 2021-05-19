@@ -19,11 +19,10 @@ module.exports = {
     'Donate',
   ],
   guides: [
-    'Guides',
     {
       type: 'category',
       label: 'Guides',
-      items: ['NextcloudGuide', 'GrapheneOSGuide', 'JoplinGuide', 'LibreOfficeGuide', 'VercelGuide'],
+      items: ['Guides', 'NextcloudGuide', 'GrapheneOSGuide', 'JoplinGuide', 'LibreOfficeGuide', 'VercelGuide'],
     },
   ]
 };
