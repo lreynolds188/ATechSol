@@ -16,7 +16,6 @@ module.exports = {
       links: [
         {
           to: 'docs/Welcome',
-          activeBasePath: 'docs',
           label: 'About',
           position: 'left',
         },
@@ -27,7 +26,6 @@ module.exports = {
         },
         {
           to: 'docs/Implementation',
-          activeBasePath: 'docs',
           label: 'Services',
           position: 'left',
         },
@@ -38,7 +36,6 @@ module.exports = {
         },
         {
           href: 'docs/Contact',
-          activeBasePath: 'docs',
           label: 'Contact',
           position: 'left',
         },
