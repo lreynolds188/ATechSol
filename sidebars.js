@@ -1,10 +1,6 @@
 module.exports = {
   docs: [
-    {
-      type: 'doc',
-      id: 'Welcome',
-      label: 'Welcome',
-    },
+    'Welcome',
     {
       type: 'category',
       label: 'Open Source Software',
@@ -27,11 +23,7 @@ module.exports = {
     },
   ],
   guides: [
-    {
-      type: 'doc',
-      id: 'Guides',
-      label: 'Welcome',
-    },
+    'Guides',
     {
       type: 'category',
       label: 'Guides',
