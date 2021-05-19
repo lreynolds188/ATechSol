@@ -7,6 +7,6 @@ Brave is a new web browser built on Chromium's open source platform and utilizes
 
 This project shows great prospects though it still has some refinement to go as far as rewards functionality goes but the rest of the browser is fast, functional, and privacy conscious. Additionally they are currently in a testing phase for their own privacy based search engine.
 
-<img alt="Brave Browser Preview" src="/img/BraveBrowser.png" />
+[<img alt="Brave Browser Preview" src="/img/BraveBrowser.png" />](https://brave.com)
 
 To find out more about this web browser and their other projects click [here](https://brave.com).
