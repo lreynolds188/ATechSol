@@ -5,7 +5,6 @@ module.exports = {
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'Automated Tech Solutions', // Usually your GitHub org/user name.
-  projectName: 'ATS', // Usually your repo name.
   themeConfig: {
     colorMode: {
       defaultMode: 'dark',
