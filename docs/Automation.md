@@ -9,4 +9,4 @@ An IoT device is a computer device that can be outfitted with sensors, switches,
 
 This could be something as simple as turning a light switch on and off via a mobile device or as complex as utilizing radio frequencies, receiving sensor data, and controlling valves. 
 
-If you have machinery or a manual process in need of automation please feel free to send us an email [here](mailto:luke+support@automatedtechnicalsolutions.com).
+If you have machinery or a manual process in need of automation please feel free to contact us [here](contact.md).
