@@ -1,6 +1,6 @@
 ---
 id: VercelGuide
-title: GitHub-Hosted Website Deployment With Vercel
+title: Website Creation & Deployment With Vercel
 author: Luke Reynolds
 author_title: Owner @ Automated Tech Solutions
 author_url: https://github.com/lreynolds188
