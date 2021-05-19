@@ -2,8 +2,8 @@ module.exports = {
   docs: [
     {
       type: 'doc',
+      id: 'Welcome',
       label: 'Welcome',
-      items: ['Welcome'],
     },
     {
       type: 'category',
@@ -29,8 +29,8 @@ module.exports = {
   guides: [
     {
       type: 'doc',
+      id: 'Guides',
       label: 'Welcome',
-      items: ['Guides'],
     },
     {
       type: 'category',
