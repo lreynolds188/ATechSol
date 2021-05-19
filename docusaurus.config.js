@@ -35,7 +35,7 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'Contact',
+          to: 'docs/Contact',
           label: 'Contact',
           position: 'left',
         },
