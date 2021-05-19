@@ -1,5 +1,5 @@
 module.exports = {
-  docs: {
+  docs: [
     {
       type: 'doc',
       id: 'Welcome', // document id
@@ -13,5 +13,5 @@ module.exports = {
   guides: {
     Introduction: ['Guides'],
     Guides: ['Nextcloud Server Ubuntu 20.04', 'GrapheneOSGuide', 'JoplinGuide', 'LibreOfficeGuide', 'VercelGuide'],
-  }
+  ]
 };
