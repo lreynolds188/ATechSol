@@ -53,7 +53,7 @@ module.exports = {
             'Cloudflare', 
             'GitHub', 
             'Vercel', 
-            'Unstoppable Domains'
+            'UnstoppableDomains'
           ],
         },
         {
