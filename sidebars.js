@@ -69,7 +69,7 @@ module.exports = {
       label: 'Cryptocurrency',
       items: [
         {
-          'Exchange': [
+          'Exchanges': [
             'Binance', 
             'Coinbase',
           ],
