@@ -46,7 +46,23 @@ module.exports = {
     {
       type: 'category',
       label: 'Service Providers',
-      items: ['DreamHost', 'Cloudflare', 'GitHub', 'Vercel', 'Unstoppable Domains'],
+      items: [
+        {
+          'Hosting': [ 
+            'DreamHost', 
+            'Cloudflare', 
+            'GitHub', 
+            'Vercel', 
+            'Unstoppable Domains'
+          ],
+        },
+        {
+          'Search': [
+            'DuckDuckGo',
+            'BraveSearch',
+        ],
+        },
+      ],
     },
     {
       type: 'category',
