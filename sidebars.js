@@ -35,8 +35,8 @@ module.exports = {
         },
         {
           '3D Printing': [
-            'Tinkercad', 
             'Cura',
+            'Blender',
           ],
         },
       ],
@@ -44,7 +44,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Service Providers',
-      items: ['DreamHost', 'Cloudflare', 'GitHub', 'Vercel'],
+      items: ['DreamHost', 'Cloudflare', 'GitHub', 'Vercel', 'Tinkercad'],
     },
     {
       type: 'category',
