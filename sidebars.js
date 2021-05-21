@@ -37,6 +37,7 @@ module.exports = {
             '3d-printing/Cura',
           ],
         },
+      ],
     },
     {
       type: 'category',
