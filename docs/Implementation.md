@@ -6,6 +6,7 @@ title: Implementation
 We can help to implement and inform on:
 - [Open source software](Kubuntu.md) (operating systems, web browsers, search engines, office utilities, self-hosted cloud)
 - [Business infrastructure](Dreamhost.md) (domain, website, email)
+- [3D Printing](Tinkercad.md) (3D modeling, printing, and scanning)
 - [Cryptocurrency setup](Binance.md) (exchange install/setup, wallet install/setup, transfers, delegation to pools, securing, and backing up)
 - [Automation needs](Automation.md) (custom built IoT devices)
 
