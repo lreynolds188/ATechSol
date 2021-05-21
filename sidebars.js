@@ -50,9 +50,12 @@ module.exports = {
       type: 'category',
       label: 'Cryptocurrency',
       items: [
-        'Exchange': [
-          'cryptocurrency/exchange/Binance', 
-          'cryptocurrency/exchange/Coinbase',
+        {
+          'Exchange': [
+            'cryptocurrency/exchange/Binance', 
+            'cryptocurrency/exchange/Coinbase',
+          ],
+        },
       ],
     },
     {
