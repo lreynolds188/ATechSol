@@ -19,6 +19,7 @@ module.exports = {
         {
           'Web Browser': [
             'Brave',
+            'Firefox',
           ],
         },
         {
@@ -36,6 +37,7 @@ module.exports = {
         },
         {
           '3D Printing': [
+            'Tinkercad',
             'Cura',
           ],
         },
@@ -44,7 +46,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Service Providers',
-      items: ['DreamHost', 'Cloudflare', 'GitHub', 'Vercel', 'Tinkercad'],
+      items: ['DreamHost', 'Cloudflare', 'GitHub', 'Vercel', 'Unstoppable Domains'],
     },
     {
       type: 'category',
@@ -54,6 +56,13 @@ module.exports = {
           'Exchange': [
             'Binance', 
             'Coinbase',
+          ],
+        },
+        {
+          'Wallets': [
+            'MetaMask',
+            'Yoroi',
+            'Solar',
           ],
         },
       ],
