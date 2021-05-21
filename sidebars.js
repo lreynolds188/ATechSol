@@ -23,9 +23,16 @@ module.exports = {
           ],
         },
         {
+          'Communication': [
+            'Signal',
+          ],
+        },
+        
+        {
           'Office': [
             'LibreOffice', 
             'Joplin', 
+            'VSCode',
             'Krita',
             'InvoiceNinja',
           ],
@@ -76,6 +83,7 @@ module.exports = {
         },
         {
           'Wallets': [
+            'Ledger',
             'MetaMask',
             'Yoroi',
             'Solar',
