@@ -1,5 +1,5 @@
 ---
-id: vscode
+id: VSCode
 title: Visual Studio Code
 ---
 
