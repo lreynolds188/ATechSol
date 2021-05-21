@@ -5,36 +5,38 @@ module.exports = {
       type: 'category',
       label: 'Open Source Software',
       items: [
-        'open-source-software/desktop-os',
         {
           'Desktop OS': [
-            'desktop-os/Kubuntu', 
-            'desktop-os/GrapheneOS', 
-            'desktop-os/UbuntuTouch', 
-            'desktop-os/Brave', 
-            'desktop-os/LibreOffice', 
-            'desktop-os/Nextcloud', 
-            'desktop-os/Joplin', 
-            'desktop-os/InvoiceNinja',
+            'open-source-software/desktop-os/Kubuntu', 
           ],
+        },
+        {
           'Mobile OS': [
-            'mobile-os/GrapheneOS', 
-            'mobile-os/UbuntuTouch',
+            'open-source-software/mobile-os/GrapheneOS', 
+            'open-source-software/mobile-os/UbuntuTouch',
           ],
+        },
+        {
           'Web Browser': [
-            'web-browser/Brave',
+            'open-source-software/web-browser/Brave',
           ],
-          'Cloud': [
-            'cloud/Nextcloud',
-          ],
+        },
+        {
           'Office': [
-            'office/LibreOffice', 
-            'office/Joplin', 
-            'office/InvoiceNinja',
+            'open-source-software/office/LibreOffice', 
+            'open-source-software/office/Joplin', 
+            'open-source-software/office/InvoiceNinja',
           ],
+        },
+        {
+          'Cloud': [
+            'open-source-software/cloud/Nextcloud',
+          ],
+        },
+        {
           '3D Printing': [
-            '3d-printing/Tinkercad', 
-            '3d-printing/Cura',
+            'open-source-software/3d-printing/Tinkercad', 
+            'open-source-software/3d-printing/Cura',
           ],
         },
       ],
@@ -49,8 +51,8 @@ module.exports = {
       label: 'Cryptocurrency',
       items: [
         'Exchange': [
-          'exchange/Binance', 
-          'exchange/Coinbase',
+          'cryptocurrency/exchange/Binance', 
+          'cryptocurrency/exchange/Coinbase',
       ],
     },
     {
