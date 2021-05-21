@@ -7,36 +7,36 @@ module.exports = {
       items: [
         {
           'Desktop OS': [
-            'open-source-software/desktop-os/Kubuntu', 
+            'Kubuntu', 
           ],
         },
         {
           'Mobile OS': [
-            'open-source-software/mobile-os/GrapheneOS', 
-            'open-source-software/mobile-os/UbuntuTouch',
+            'GrapheneOS', 
+            'UbuntuTouch',
           ],
         },
         {
           'Web Browser': [
-            'open-source-software/web-browser/Brave',
+            'Brave',
           ],
         },
         {
           'Office': [
-            'open-source-software/office/LibreOffice', 
-            'open-source-software/office/Joplin', 
-            'open-source-software/office/InvoiceNinja',
+            'LibreOffice', 
+            'Joplin', 
+            'InvoiceNinja',
           ],
         },
         {
           'Cloud': [
-            'open-source-software/cloud/Nextcloud',
+            'Nextcloud',
           ],
         },
         {
           '3D Printing': [
-            'open-source-software/3d-printing/Tinkercad', 
-            'open-source-software/3d-printing/Cura',
+            'Tinkercad', 
+            'Cura',
           ],
         },
       ],
@@ -52,8 +52,8 @@ module.exports = {
       items: [
         {
           'Exchange': [
-            'cryptocurrency/exchange/Binance', 
-            'cryptocurrency/exchange/Coinbase',
+            'Binance', 
+            'Coinbase',
           ],
         },
       ],
