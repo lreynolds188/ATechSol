@@ -3,7 +3,7 @@ id: Disclaimer
 title: Disclaimer
 ---
 
-<i>8 May 2021</i>
+<i>21 May 2021</i>
 
 <br/>
 
