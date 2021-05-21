@@ -25,6 +25,7 @@ module.exports = {
           'Office': [
             'LibreOffice', 
             'Joplin', 
+            'Krita',
             'InvoiceNinja',
           ],
         },
@@ -36,7 +37,6 @@ module.exports = {
         {
           '3D Printing': [
             'Cura',
-            'Blender',
           ],
         },
       ],
