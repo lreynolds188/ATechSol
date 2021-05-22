@@ -1,6 +1,6 @@
 ---
-id: Automation
-title: Automation
+id: Ubuntu
+title: Ubuntu
 ---
 
 Coming Soon.
