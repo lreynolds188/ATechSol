@@ -6,31 +6,32 @@ module.exports = {
       label: 'Open Source Software',
       items: [
         {
-          'Desktop OS': [
+          'Desktop Operating Systems': [
             'Kubuntu', 
+            'Ubuntu',
           ],
         },
         {
-          'Mobile OS': [
+          'Mobile Operating Systems': [
             'GrapheneOS', 
             'UbuntuTouch',
           ],
         },
         {
-          'Web Browser': [
+          'Web Browsers': [
             'Brave',
             'Firefox',
           ],
         },
         {
-          'Communication': [
+          'Communications': [
             'Signal',
             'Tutanota',
           ],
         },
         
         {
-          'Office': [
+          'Office Tools': [
             'LibreOffice', 
             'Joplin', 
             'VSCode',
@@ -39,7 +40,7 @@ module.exports = {
           ],
         },
         {
-          'Cloud': [
+          'Cloud Server': [
             'Nextcloud',
           ],
         },
