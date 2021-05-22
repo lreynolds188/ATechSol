@@ -61,8 +61,7 @@ module.exports = {
             'DreamHost', 
             'Cloudflare', 
             'GitHub', 
-            'Vercel', 
-            'UnstoppableDomains'
+            'Vercel',
           ],
         },
         {
