@@ -85,7 +85,6 @@ module.exports = {
         {
           'Wallets': [
             'Ledger',
-            'MetaMask',
             'Yoroi',
             'Solar',
           ],
