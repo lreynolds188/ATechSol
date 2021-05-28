@@ -74,25 +74,6 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Cryptocurrency',
-      items: [
-        {
-          'Exchanges': [
-            'Binance', 
-            'Coinbase',
-          ],
-        },
-        {
-          'Wallets': [
-            'Ledger',
-            'Yoroi',
-            'Solar',
-          ],
-        },
-      ],
-    },
-    {
-      type: 'category',
       label: 'Our Services',
       items: ['Implementation', 'Information', 'Automation'],
     },
