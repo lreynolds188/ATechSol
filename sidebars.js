@@ -65,7 +65,7 @@ module.exports = {
           ],
         },
         {
-          'Search': [
+          'Search Engines': [
             'DuckDuckGo',
             'BraveSearch',
         ],
