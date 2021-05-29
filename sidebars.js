@@ -84,7 +84,7 @@ module.exports = {
       type: 'category',
       label: 'Guides',
       items: [
-        'guides/Guides', 
+        'guides/Welcome', 
         'guides/NextcloudGuide', 
         'guides/GrapheneOSGuide', 
         'guides/JoplinGuide', 
