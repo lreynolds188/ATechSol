@@ -20,20 +20,17 @@ module.exports = {
       links: [
         {
           label: 'About',
-          to: 'about/Welcome',
-          activeBasePath: 'docs',
+          to: 'docs/about/Welcome',
           position: 'left',
         },
         {
           label: 'Guides',
-          to: 'about/Guides',
-          activeBasePath: 'docs',
+          to: 'docs/about/Guides',
           position: 'left',
         },
         {
           label: 'Services',
-          to: 'about/Implementation',
-          activeBasePath: 'docs',
+          to: 'docs/about/Implementation',
           position: 'left',
         },
         {
@@ -43,8 +40,7 @@ module.exports = {
         },
         {
           label: 'Contact',
-          to: 'about/Contact',
-          activeBasePath: 'docs',
+          to: 'docs/about/Contact',
           position: 'left',
         },
         {
@@ -62,18 +58,15 @@ module.exports = {
           items: [
             {
               label: 'Privacy Policy',
-              to: 'about/PrivacyPolicy',
-              activeBasePath: 'docs',
+              to: 'docs/about/PrivacyPolicy',
             },
             {
               label: 'Disclaimer',
-              to: 'about/Disclaimer',
-              activeBasePath: 'docs',
+              to: 'docs/about/Disclaimer',
             },
             {
               label: 'Donate',
-              to: 'about/Donate',
-              activeBasePath: 'docs',
+              to: 'docs/about/Donate',
             },
           ],
         },
