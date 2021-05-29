@@ -87,7 +87,7 @@ module.exports = {
         'guides/Welcome', 
         'guides/Nextcloud', 
         'guides/GrapheneOS', 
-        'guides/JoplinGuide', 
+        'guides/Joplin', 
         'guides/LibreOffice', 
         'guides/Vercel'
       ],
