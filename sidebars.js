@@ -1,6 +1,6 @@
 module.exports = {
   docs: [
-    'Welcome',
+    'about/Welcome',
     {
       type: 'category',
       label: 'Open Source Software',
