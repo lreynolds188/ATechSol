@@ -25,7 +25,7 @@ module.exports = {
         },
         {
           label: 'Guides',
-          to: 'docs/guides/Guides',
+          to: 'docs/guides/Welcome',
           position: 'left',
         },
         {
