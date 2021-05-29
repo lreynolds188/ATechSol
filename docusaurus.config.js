@@ -19,7 +19,7 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/about/Welcome',
+          to: 'about/Welcome',
           label: 'About',
           position: 'left',
         },
