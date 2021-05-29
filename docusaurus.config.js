@@ -19,33 +19,37 @@ module.exports = {
       },
       links: [
         {
-          to: 'about/Welcome',
           label: 'About',
+          to: 'about/Welcome',
+          activeBasePath: 'docs',
           position: 'left',
         },
         {
-          to: 'about/Guides',
           label: 'Guides',
+          to: 'about/Guides',
+          activeBasePath: 'docs',
           position: 'left',
         },
         {
-          to: 'about/Implementation',
           label: 'Services',
+          to: 'about/Implementation',
+          activeBasePath: 'docs',
           position: 'left',
         },
         {
-          href: 'https://thereynolds.com.au',
           label: 'Team',
+          href: 'https://thereynolds.com.au',
           position: 'left',
         },
         {
-          to: 'about/Contact',
           label: 'Contact',
+          to: 'about/Contact',
+          activeBasePath: 'docs',
           position: 'left',
         },
         {
-          href: 'https://github.com/lreynolds188',
           label: 'GitHub',
+          href: 'https://github.com/lreynolds188',
           position: 'right',
         },
       ],
