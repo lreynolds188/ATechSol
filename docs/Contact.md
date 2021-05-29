@@ -8,6 +8,6 @@ If you would like to get in contact with us to discuss our remote or on-site ser
 Please understand we are currently only servicing a small customer base in the Brisbane, Queensland area.
 
 Email: luke@automatedtechnicalsolutions.com<br/>
-Phone: (+61) 0434 518 262<br/>
+Phone: (+61) 434 518 262<br/>
 Business hours: 9:30am - 4:30pm, Mon - Fri
 
