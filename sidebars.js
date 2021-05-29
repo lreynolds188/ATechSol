@@ -7,47 +7,47 @@ module.exports = {
       items: [
         {
           'Desktop Operating Systems': [
-            'Kubuntu', 
-            'Ubuntu',
+            'about/Kubuntu', 
+            'about/Ubuntu',
           ],
         },
         {
           'Mobile Operating Systems': [
-            'GrapheneOS', 
-            'UbuntuTouch',
+            'about/GrapheneOS', 
+            'about/UbuntuTouch',
           ],
         },
         {
           'Web Browsers': [
-            'Brave',
-            'Firefox',
+            'about/Brave',
+            'about/Firefox',
           ],
         },
         {
           'Communications': [
-            'Signal',
-            'Tutanota',
+            'about/Signal',
+            'about/Tutanota',
           ],
         },
         
         {
           'Office Tools': [
-            'LibreOffice', 
-            'Joplin', 
-            'VSCode',
-            'Krita',
-            'InvoiceNinja',
+            'about/LibreOffice', 
+            'about/Joplin', 
+            'about/VSCode',
+            'about/Krita',
+            'about/InvoiceNinja',
           ],
         },
         {
           'Cloud Server': [
-            'Nextcloud',
+            'about/Nextcloud',
           ],
         },
         {
           '3D Printing': [
-            'Tinkercad',
-            'Cura',
+            'about/Tinkercad',
+            'about/Cura',
           ],
         },
       ],
@@ -58,16 +58,16 @@ module.exports = {
       items: [
         {
           'Hosting': [ 
-            'DreamHost', 
-            'Cloudflare', 
-            'GitHub', 
-            'Vercel',
+            'about/DreamHost', 
+            'about/Cloudflare', 
+            'about/GitHub', 
+            'about/Vercel',
           ],
         },
         {
           'Search Engines': [
-            'DuckDuckGo',
-            'BraveSearch',
+            'about/DuckDuckGo',
+            'about/BraveSearch',
         ],
         },
       ],
@@ -75,15 +75,22 @@ module.exports = {
     {
       type: 'category',
       label: 'Our Services',
-      items: ['Implementation', 'Information', 'Automation'],
+      items: ['about/Implementation', 'about/Information', 'about/Automation'],
     },
-    'Donate',
+    'about/Donate',
   ],
   guides: [
     {
       type: 'category',
       label: 'Guides',
-      items: ['Guides', 'NextcloudGuide', 'GrapheneOSGuide', 'JoplinGuide', 'LibreOfficeGuide', 'VercelGuide'],
+      items: [
+        'guides/Guides', 
+        'guides/NextcloudGuide', 
+        'guides/GrapheneOSGuide', 
+        'guides/JoplinGuide', 
+        'guides/LibreOfficeGuide', 
+        'guides/VercelGuide'
+      ],
     },
   ]
 };

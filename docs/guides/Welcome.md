@@ -1,5 +1,5 @@
 ---
-id: Guides
+id: Welcome
 title: Welcome
 author: Luke Reynolds
 author_title: Owner @ Automated Tech Solutions

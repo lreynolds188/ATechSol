@@ -1,5 +1,5 @@
 ---
-id: JoplinGuide
+id: Joplin
 title: Joplin Nextcloud Configuration
 author: Luke Reynolds
 author_title: Owner @ Automated Tech Solutions

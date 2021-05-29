@@ -19,17 +19,17 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/Welcome',
+          to: 'docs/about/Welcome',
           label: 'About',
           position: 'left',
         },
         {
-          to: 'docs/Guides',
+          to: 'about/Guides',
           label: 'Guides',
           position: 'left',
         },
         {
-          to: 'docs/Implementation',
+          to: 'about/Implementation',
           label: 'Services',
           position: 'left',
         },
@@ -39,7 +39,7 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'docs/Contact',
+          to: 'about/Contact',
           label: 'Contact',
           position: 'left',
         },
@@ -58,17 +58,17 @@ module.exports = {
           items: [
             {
               label: 'Privacy Policy',
-              to: 'docs/Privacy Policy',
+              to: 'about/PrivacyPolicy',
               activeBasePath: 'docs',
             },
             {
               label: 'Disclaimer',
-              to: 'docs/Disclaimer',
+              to: 'about/Disclaimer',
               activeBasePath: 'docs',
             },
             {
               label: 'Donate',
-              to: 'docs/Donate',
+              to: 'about/Donate',
               activeBasePath: 'docs',
             },
           ],

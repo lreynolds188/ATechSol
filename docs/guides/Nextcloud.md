@@ -1,5 +1,5 @@
 ---
-id: NextcloudGuide
+id: Nextcloud
 title: Nextcloud Server Ubuntu 20.04
 author: Luke Reynolds
 author_title: Owner @ Automated Tech Solutions

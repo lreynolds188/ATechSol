@@ -1,6 +1,6 @@
 ---
-id: VercelGuide
-title: Website Creation & Deployment With Vercel
+id: GrapheneOS
+title: GrapheneOS Installation
 author: Luke Reynolds
 author_title: Owner @ Automated Tech Solutions
 author_url: https://github.com/lreynolds188
