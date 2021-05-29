@@ -85,11 +85,11 @@ module.exports = {
       label: 'Guides',
       items: [
         'guides/Welcome', 
-        'guides/NextcloudGuide', 
-        'guides/GrapheneOSGuide', 
+        'guides/Nextcloud', 
+        'guides/GrapheneOS', 
         'guides/JoplinGuide', 
-        'guides/LibreOfficeGuide', 
-        'guides/VercelGuide'
+        'guides/LibreOffice', 
+        'guides/Vercel'
       ],
     },
   ]
