@@ -40,7 +40,7 @@ module.exports = {
           ],
         },
         {
-          'Cloud Server': [
+          'Self-Hosted Cloud': [
             'about/Nextcloud',
           ],
         },
