@@ -3,9 +3,9 @@ id: PrivacyPolicy
 title: Privacy Policy
 ---
 
-<i>10 May 2021</i>
+<i>30 May 2021</i>
 
-This privacy policy will help you understand how www.automatedtechnicalsolutions.com ("us", "we", "our") uses and protects the data you provide to us when you visit and use [www.automatedtechnicalsolutions.com]("website", "service").
+This privacy policy will help you understand how www.atechsol.com.au ("us", "we", "our") uses and protects the data you provide to us when you visit and use [www.atechsol.com.au]("website", "service").
 
 We reserve the right to change this policy at any given time, of which you will be promptly updated. If you want to make sure that you are up to date with the latest changes, we advise you to frequently visit this page.
 
