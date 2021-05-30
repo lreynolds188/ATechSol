@@ -43,12 +43,6 @@ module.exports = {
           to: 'docs/about/Contact',
           position: 'left',
         },
-        {
-          label: 'GitHub',
-          href: 'https://github.com/lreynolds188',
-          position: 'right',
-        },
-      ],
     },
     footer: {
       style: 'dark',
