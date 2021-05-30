@@ -75,7 +75,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Our Services',
-      items: ['about/Implementation', 'about/Information', 'about/Automation'],
+      items: ['about/Implementation', 'about/InformationSecurity', 'about/Automation'],
     },
     'about/Donate',
   ],
