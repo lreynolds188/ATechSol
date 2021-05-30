@@ -58,8 +58,8 @@ module.exports = {
       items: [
         {
           'Hosting': [ 
-            'about/DreamHost', 
             'about/Cloudflare', 
+            'about/DreamHost',
             'about/GitHub', 
             'about/Vercel',
           ],
