@@ -3,7 +3,7 @@ id: VSCode
 title: Visual Studio Code
 ---
 
-Description coming soon.
+Visual Studio Code is an open source text editor developed by Microsoft that is incredibly versatile and compact. It features a wide range of functionality from general file editing to source control, debugging, and extension library built by a supportive community. 
 
 [<img alt="Visual Studio Code Preview" src="/img/VSCode.png" />](https://code.visualstudio.com/)
 
