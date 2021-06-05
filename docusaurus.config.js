@@ -43,6 +43,7 @@ module.exports = {
           to: 'docs/about/Contact',
           position: 'left',
         },
+      ],
     },
     footer: {
       style: 'dark',
