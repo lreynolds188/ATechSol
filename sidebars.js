@@ -48,6 +48,7 @@ module.exports = {
           '3D Printing': [
             'about/Tinkercad',
             'about/Cura',
+            'about/Thingiverse',
           ],
         },
       ],
