@@ -75,6 +75,28 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Cryptocurrency & Stocks',
+      items: [
+        {
+          'Exchanges': [ 
+            'about/Binance', 
+            'about/Coinbase',
+            'about/Coinspot', 
+            'about/Stake',
+          ],
+        },
+        {
+          'Wallets': [
+            'about/Ledger',
+            'about/Yoroi',
+            'about/MyEtherWallet',
+            'about/Solar',
+        ],
+        },
+      ],
+    },
+    {
+      type: 'category',
       label: 'Our Services',
       items: ['about/Implementation', 'about/InformationSecurity', 'about/Support', 'about/Automation'],
     },
