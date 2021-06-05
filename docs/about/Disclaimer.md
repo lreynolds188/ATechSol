@@ -11,7 +11,7 @@ By using our website, you hereby consent to our disclaimer and agree to its term
 
 www.atechsol.com.au claims no partnership or affiliation with any of the products or service providers listed; They are simply a recommendation as to what we utilize for ourselves and our customers at the time of writing.
 
-None of the information on this site is financial advice. Do your own research. www.atechsol.com.au is not a financial advisory entity nor should any of the information on this site be interpreted as financial advice. If you intend to invest or trade on a cryptocurrency exchange do so at your own risk.
+None of the information on this site is financial advice. Do your own research. www.atechsol.com.au is not a financial advisory entity nor should any of the information on this site be interpreted as financial advice. If you intend to invest or trade on an exchange do so at your own risk.
 
 All the information on this website is published in good faith and for general information purpose only. www.atechsol.com.au does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website (www.atechsol.com.au), is strictly at your own risk. www.atechsol.com.au will not be liable for any losses and/or damages in connection with the use of our website.
 
