@@ -3,6 +3,8 @@ id: Implementation
 title: Implementation
 ---
 
+<img alt="Implementation banner" src="/img/Implementation.jpg" />
+
 We can help to inform on, install, and configure:
 - [Open Source Software](Kubuntu.md) (operating systems, web browsers, search engines, office and cloud utilities)
 - [Online Infrastructure](Cloudflare.md) (domain, website, email, hosting, server)
