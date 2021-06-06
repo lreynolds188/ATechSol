@@ -3,4 +3,8 @@ id: Krita
 title: Krita
 ---
 
-Coming soon.
+Description coming soon.
+
+[<img alt="Krita Preview" src="/img/Krita.jpg" />](https://krita.org/en/)
+
+Find out more about this project on their website [here](https://krita.org/en/)
