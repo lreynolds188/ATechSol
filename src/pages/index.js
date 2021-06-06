@@ -12,7 +12,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Our goal is to provide the highest quality and simplest solutions for a range of technical and operating issues as well as a guided explanation that will help you and your team understand and resolve them in the future.
+        Our goal is to deliver the highest quality and simplest solutions to a range of technical and operating issues along with a guided explanation that will help you and your team understand and resolve them in the future.
       </>
     ),
   },
@@ -30,7 +30,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Improving productivity and cutting costs by removing unnecessary products, services, and dependencies with the use of respectable providers, custom built IoT devices, and open source utilities.
+        Improving productivity and cutting costs by removing unnecessary products, services, and dependencies with the use of open source utilities, respectable providers, and custom built automation devices.
       </>
     ),
   },
