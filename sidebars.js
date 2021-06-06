@@ -70,9 +70,9 @@ module.exports = {
       type: 'category',
       label: '3D Printing',
       items: [
+        'about/Thingiverse',
         'about/Tinkercad',
         'about/Cura',
-        'about/Thingiverse',
       ],
     },
     {
