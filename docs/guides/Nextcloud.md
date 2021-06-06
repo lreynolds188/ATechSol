@@ -149,7 +149,7 @@ RealVNC Viewer can be found [here](https://www.realvnc.com/en/connect/download/v
 <br/>
 
 ### 2-Factor Authentication
-Install FreeOTP+ or your chosen 2FA code generator from [Playstore](https://play.google.com/store/apps/details?id=org.liberty.android.freeotpplus&hl=en_US&gl=US) or [F-Droid](https://f-droid.org/en/packages/org.liberty.android.freeotpplus/).
+Install FreeOTP+ or your chosen 2FA code generator from [Playstore](https://play.google.com/store/apps/details?id=org.liberty.android.freeotpplus&hl=en_US&gl=US)
 
 Once your 2FA application is ready, go to the RealVNC website, sign in, and setup 2FA. 
 
@@ -243,7 +243,7 @@ Navigate to your Nextcloud portal, go to Settings -> Personal -> Security. Scrol
 <br/>
 
 ### Calendar, Contact, and Task Syncronization Client
-Install DAVx⁵ from [Playstore](https://play.google.com/store/apps/details?id=at.bitfire.davdroid&hl=en_US&gl=US) or [F-Droid](https://f-droid.org/en/packages/at.bitfire.davdroid/).
+Install DAVx⁵ from [Playstore](https://play.google.com/store/apps/details?id=at.bitfire.davdroid&hl=en_US&gl=US).
 
 Once DAVx⁵ is installed, login to the app using a Nextcloud app code and allow the permissions you require. Once the app is finished configuring it will automatically sync all of your calendar events, contacts, and tasks with the phone's system apps.
 
