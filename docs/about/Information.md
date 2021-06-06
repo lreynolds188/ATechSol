@@ -3,7 +3,7 @@ id: InformationSecurity
 title: Information & Security
 ---
 
-
+<img alt="Information & security banner" src="/img/Security.jpg" />
 
 We can help to find solutions to problems and explain the resolution process in a way that will allow you to understand so you can resolve it and other problems like it in the future. This is possible for those with all ranges of technical skill & knowledge from beginner to adept.
 
