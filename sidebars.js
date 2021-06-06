@@ -44,13 +44,6 @@ module.exports = {
             'about/Nextcloud',
           ],
         },
-        {
-          '3D Printing': [
-            'about/Tinkercad',
-            'about/Cura',
-            'about/Thingiverse',
-          ],
-        },
       ],
     },
     {
@@ -75,12 +68,20 @@ module.exports = {
     },
     {
       type: 'category',
+      label: '3D Printing',
+      items: [
+        'about/Tinkercad',
+        'about/Cura',
+        'about/Thingiverse',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Cryptocurrency & Stocks',
       items: [
         {
           'Exchanges': [ 
-            'about/Binance', 
-            'about/Coinbase',
+            'about/Binance',
             'about/Coinspot', 
             'about/Stake',
           ],
@@ -90,7 +91,6 @@ module.exports = {
             'about/Ledger',
             'about/Yoroi',
             'about/MyEtherWallet',
-            'about/Solar',
         ],
         },
       ],
