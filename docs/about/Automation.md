@@ -7,4 +7,4 @@ We remove unnecessary steps in processes by automating your home and/or business
 
 An IoT device is a computer device that can be outfitted with sensors, switches, and actuators, connected to the internet, and serves some purpose. This could be something as simple as turning a light switch on and off via a mobile device or as complex as utilising radio frequencies, receiving sensor data, and controlling valves to automate and optimise machinery operation. 
 
-If you have machinery or a manual process in need of automation feel free to contact us [here](Contact.md) to discuss possible solutions and pricing.
+If you have machinery or a manual process in need of automation feel free to contact us [here](Contact.md) to discuss possible solutions, timeline, and pricing.
