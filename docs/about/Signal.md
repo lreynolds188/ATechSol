@@ -7,8 +7,8 @@ Signal is an open source end-to-end encrypted messaging service. It includes all
 
 To setup Signal you must provide your mobile number which will be used as an identifier for sending and receiving messages and calls between contacts. From there all messages, calls, and video are encrypted and transported through an internet connection that is fully encrypted so only the sender and receiver can access the contents of a conversation.
 
-Note: Messages are only encrypted between Signal to Signal users; A message or call made through Signal to a non Signal phone number will not be encrypted.
-
 [<img alt="Signal Preview" src="/img/Signal.png" />](https://www.signal.org/)
+
+Note: Messages are only encrypted between Signal to Signal users; A message or call made through Signal to a non Signal phone number will not be encrypted.
 
 Find out more about this project on their website [here](https://www.signal.org/).
