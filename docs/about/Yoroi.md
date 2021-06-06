@@ -3,4 +3,4 @@ id: Yoroi
 title: Yoroi
 ---
 
-Coming Soon.
+Coming soon.

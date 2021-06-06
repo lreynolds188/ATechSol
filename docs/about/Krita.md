@@ -3,4 +3,4 @@ id: Krita
 title: Krita
 ---
 
-Coming Soon.
+Coming soon.

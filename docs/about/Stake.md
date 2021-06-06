@@ -3,4 +3,4 @@ id: Stake
 title: Stake
 ---
 
-Coming Soon.
+Coming soon.

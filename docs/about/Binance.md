@@ -3,4 +3,4 @@ id: Binance
 title: Binance
 ---
 
-Coming Soon.
+Coming soon.

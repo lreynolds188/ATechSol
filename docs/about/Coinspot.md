@@ -3,4 +3,4 @@ id: Coinspot
 title: Coinspot
 ---
 
-Coming Soon.
+Coming soon.
