@@ -3,4 +3,8 @@ id: Yoroi
 title: Yoroi
 ---
 
-Coming soon.
+Description coming soon.
+
+
+
+To find out more about this cardano wallet you can visit their website [here](https://yoroi-wallet.com/#/).
