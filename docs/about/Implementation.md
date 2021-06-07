@@ -3,7 +3,7 @@ id: Implementation
 title: Implementation
 ---
 
-We can help to inform on, install, and configure:
+We can help to install, configure, maintain, and educate on:
 - [Open Source Software](Kubuntu.md) (operating systems, web browsers, search engines, office and cloud utilities)
 - [Online Infrastructure](Cloudflare.md) (domain, website, email, hosting, server)
 - [3D Printing](Tinkercad.md) (modeling, printing, and scanning)
