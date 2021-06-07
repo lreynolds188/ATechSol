@@ -9,4 +9,4 @@ All of our solutions are focused on the privacy and security of your personal an
 
 <img alt="Information & security banner" src="/img/Security.jpg" />
 
-If you are struggling to function or are concerned about the security of your current systems feel free to contact us [here](Contact.md).
+If you or your team are struggling to function or are concerned about the security of your current systems feel free to contact us [here](Contact.md).
