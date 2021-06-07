@@ -7,4 +7,4 @@ Ultimaker Cura is a free and open source 3D slicing application that is widely u
 
 [<img alt="Ultimaker Cura Preview" src="/img/Cura.png" />](https://ultimaker.com/software/ultimaker-cura)
 
-To find out more about this slicing program you can visit their website [here](https://ultimaker.com/software/ultimaker-cura).
+To find out more about this 3D slicing utility you can visit their website [here](https://ultimaker.com/software/ultimaker-cura).

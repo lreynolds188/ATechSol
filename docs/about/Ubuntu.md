@@ -7,5 +7,5 @@ Ubuntu is another great option for an open source Linux based operating system. 
 
 [<img alt="Ubuntu Desktop Preview" src="/img/UbuntuDesktop.jpg" />](https://ubuntu.com/)
 
-To find out more about this operating system you can visit their website [here](https://ubuntu.com/)
+To find out more about this operating system you can visit their website [here](https://ubuntu.com/).
 
