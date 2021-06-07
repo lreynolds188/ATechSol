@@ -7,4 +7,4 @@ Ubuntu Touch is a great Linux based operating system built for mobile devices. T
 
 [<img alt="Ubuntu Touch Preview" src="/img/UbuntuTouch.png" />](https://ubuntu-touch.io/)
 
-To find out more about this operating system you can visit their website [here](https://ubuntu-touch.io/)
+To find out more about this operating system you can visit their website [here](https://ubuntu-touch.io/).
