@@ -3,7 +3,7 @@ id: Yoroi
 title: Yoroi
 ---
 
-Description coming soon.
+Yoroi is an official Cardano wallet that offers a sleek design, solid functionality, and large developer infrastructure. Yoroi is available on mobile devices has staking built in and is currently working on voting integration.
 
 [<img alt="Yoroi website preview" src="/img/Yoroi.png" />](https://yoroi-wallet.com/#/)
 
