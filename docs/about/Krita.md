@@ -7,4 +7,4 @@ Krita is a good mid range image editing tool designed to mirror the features of 
 
 [<img alt="Krita Preview" src="/img/Krita.png" />](https://krita.org/en/)
 
-To find out more about this image editor you can visit their website [here](https://krita.org/en/)
+To find out more about this image editor you can visit their website [here](https://krita.org/en/).
