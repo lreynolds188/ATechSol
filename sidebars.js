@@ -100,6 +100,7 @@ module.exports = {
       label: 'Our Services',
       items: ['about/Implementation', 'about/InformationSecurity', 'about/Support', 'about/Automation'],
     },
+    'about/Contact',
     'about/Donate',
   ],
   guides: [
