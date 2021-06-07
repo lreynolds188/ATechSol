@@ -7,4 +7,4 @@ LibreOffice is the successor to OpenOffice. It is a free and open source office 
 
 [<img alt="LibreOffice Writer Preview" src="/img/LibreOffice.png" />](https://www.libreoffice.org)
 
-Find out more about this project on their website [here](https://www.libreoffice.org).
+To find out more about this document processor you can visit their website [here](https://www.libreoffice.org).

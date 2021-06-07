@@ -8,4 +8,4 @@ Nextcloud speaks for itself; It's the next evolution in cloud infrastructure. Se
 [<img alt="Nextcloud UI Preview" src="/img/NextcloudUI.png" />](https://nextcloud.com/)
 
 
-Find out more about this project on their website [here](https://nextcloud.com/).
+To find out more about this self-hosted cloud utility you can visit their website [here](https://nextcloud.com/).

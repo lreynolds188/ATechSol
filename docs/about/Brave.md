@@ -9,4 +9,4 @@ This project shows great promise though there is still some refinement to be don
 
 [<img alt="Brave Browser Preview" src="/img/BraveBrowser.png" />](https://brave.com)
 
-To find out more about this web browser and their other projects click [here](https://brave.com).
+To find out more about this web browser you can visit their website [here](https://brave.com).

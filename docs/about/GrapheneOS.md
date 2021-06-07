@@ -7,4 +7,4 @@ GrapheneOS is a privacy and security focused mobile operating system recommended
 
 [<img alt="GrapheneOS Mobile Preview" src="/img/GrapheneOS.jpeg" />](https://grapheneos.org/)
 
-Find out more about this project on their website [here](https://grapheneos.org/).
+To find out more about this operating system you can visit their website [here](https://grapheneos.org/).

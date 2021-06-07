@@ -7,4 +7,4 @@ While we have only just found out about this project we could not be happier wit
 
 [<img alt="InvoiceNinja Preview" src="/img/InvoiceNinja.png" />](https://www.invoiceninja.com/)
 
-Find out more about this project and their hosting options [here](https://www.invoiceninja.com/).
+To find out more about this invoicing utility and their hosting options you can visit their website [here](https://www.invoiceninja.com/).

@@ -7,4 +7,4 @@ Cloudflare's name stands strong after providing network protection for roughly 2
 
 [<img alt="Cloudflare Website" src="/img/Cloudflare.png" />](https://www.cloudflare.com/)
 
-To find out more about this DNS provider click [here](https://www.cloudflare.com/).
+To find out more about this DNS provider you can visit their website [here](https://www.cloudflare.com/).

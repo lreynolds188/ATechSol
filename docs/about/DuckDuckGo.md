@@ -7,4 +7,4 @@ DuckDuckGo is currently the most popular privacy focused search engine that prov
 
 [<img alt="DuckDuckGo Search Engine Preview" src="/img/DuckDuckGo.png" />](https://duckduckgo.com/)
 
-Find out more about this search engine on their website [here](https://duckduckgo.com/).
+To find out more about this search engine you can visit their website [here](https://duckduckgo.com/).

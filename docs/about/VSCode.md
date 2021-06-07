@@ -7,4 +7,4 @@ Visual Studio Code is an open source text editor developed by Microsoft that is 
 
 [<img alt="Visual Studio Code Preview" src="/img/VSCode.png" />](https://code.visualstudio.com/)
 
-Find out more about this project on their website [here](https://code.visualstudio.com/).
+To find out more about this text editor you can visit their website [here](https://code.visualstudio.com/).

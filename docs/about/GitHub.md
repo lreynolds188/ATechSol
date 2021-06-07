@@ -7,4 +7,4 @@ GitHub, owned by Microsoft, is one of the largest source control and hosting pla
 
 [<img alt="GitHub's Website" src="/img/GitHub.png" />](https://github.com/)
 
-Find out more about their services [here](https://github.com/).
+To find out more about their services you can visit their website [here](https://github.com/).

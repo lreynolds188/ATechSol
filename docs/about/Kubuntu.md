@@ -7,4 +7,4 @@ Kubuntu is our first choice for an open source desktop operating system. It is a
 
 [<img alt="Kubuntu Desktop Preview" src="/img/KubuntuDesktop.png" />](https://kubuntu.org/)
 
-Find out more about this project on their website [here](https://kubuntu.org/).
+To find out more about this operating system you can visit their website [here](https://kubuntu.org/).

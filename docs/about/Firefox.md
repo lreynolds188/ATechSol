@@ -7,4 +7,4 @@ Firefox is one of the oldest and most reliable open source web browsers availabl
 
 [<img alt="Firefox Browser Preview" src="/img/Firefox.png" />](https://www.mozilla.org/en-US/)
 
-Find out more about this project on their website [here](https://www.mozilla.org/en-US/).
+To find out more about this web browser you can visit their website [here](https://www.mozilla.org/en-US/).

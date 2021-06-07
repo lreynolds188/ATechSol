@@ -7,4 +7,4 @@ While searching for a domain registrar the current cheapest and most privacy con
 
 [<img alt="DreamHost Website" src="/img/DreamHost.png" />](https://www.dreamhost.com/)
 
-To find out more about this domain provider click [here](https://www.dreamhost.com/).
+To find out more about this domain provider you can visit their website [here](https://www.dreamhost.com/).

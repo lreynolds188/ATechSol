@@ -11,4 +11,4 @@ To setup Signal you must provide your mobile number which will be used as an ide
 
 Note: Messages are only encrypted between Signal to Signal users; A message or call made through Signal to a non Signal phone number will not be encrypted.
 
-Find out more about this project on their website [here](https://www.signal.org/).
+To find out more about this encrypted messaging service you can visit their website [here](https://www.signal.org/).
