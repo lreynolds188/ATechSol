@@ -9,4 +9,4 @@ An IoT device is a computer device that can be outfitted with sensors, switches,
 
 [<img alt="Automation banner" src="/img/Automation.jpg" />](https://www.raspberrypi.org/)
 
-If you have machinery or a manual process in need of automation feel free to contact us [here](Contact.md) to discuss possible solutions, timeline, and pricing.
+If you have machinery or a manual process in need of automation feel free to contact us [here](about/Contact.md) to discuss possible solutions, timeline, and pricing.

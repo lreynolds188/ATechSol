@@ -43,4 +43,4 @@ We don’t control what they do, read their privacy policy.
 
 #### Contact
 
-If you require any more information or have any questions about our site's privacy policy, please feel free to contact us [here](Contact.md).
+If you require any more information or have any questions about our site's privacy policy, please feel free to contact us [here](about/Contact.md).
