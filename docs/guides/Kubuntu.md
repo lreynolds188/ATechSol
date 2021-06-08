@@ -10,7 +10,7 @@ author_image_url: https://thereynolds.com.au/_next/image?url=%2Fprofile.jpg&w=25
 <i>8 June, 2021, Luke Reynolds</i><br/>
 <i>Difficulty: Intermediate</i>
 
-<br/>
+<br/><br/>
 
 In my search to replace Windows as my primary operating system I have found Linux and in extension Kubuntu and Ubuntu. Here you will find a detailed guide to download and install this software onto your current systems.
 
