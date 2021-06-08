@@ -10,15 +10,14 @@ author_image_url: https://thereynolds.com.au/_next/image?url=%2Fprofile.jpg&w=25
 <i>8 June, 2021, Luke Reynolds</i><br/>
 <i>Difficulty: Intermediate</i>
 
-[<img alt="Kubuntu Desktop Preview" src="/img/KubuntuDesktop.png" />](https://kubuntu.org/)
-
-
 ##### Requirements
 1. The computer to be loaded.
 
 2. An internet connection.
 
 3. A USB stick (8GB or larger).
+
+[<img alt="Kubuntu Desktop Preview" src="/img/KubuntuDesktop.png" />](https://kubuntu.org/)
 
 <!--truncate-->
 
