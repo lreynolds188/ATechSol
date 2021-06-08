@@ -98,7 +98,12 @@ module.exports = {
     {
       type: 'category',
       label: 'Our Services',
-      items: ['about/Implementation', 'about/InformationSecurity', 'about/Support', 'about/Automation'],
+      items: [
+        'about/Implementation', 
+        'about/InformationSecurity', 
+        'about/Support', 
+        'about/Automation',
+      ],
     },
     'about/Contact',
     'about/Donate',
@@ -107,10 +112,8 @@ module.exports = {
     'guides/Welcome', 
     {
       type: 'category',
-      label: 'Guides',
+      label: 'Software',
       items: [
-        {
-          'Software': [
             'guides/Brave',
             'guides/LibreOffice', 
             'guides/Signal',
@@ -120,9 +123,11 @@ module.exports = {
             'guides/Kubuntu',
             'guides/GrapheneOS',
           ],
-        },
-        {
-          'Online Infrastructure': [
+    },
+    {
+      type: 'category',
+      label: 'Online Infrastructure',
+      items: [
             'guides/Tutanota',
             'guides/InvoiceNinja',
             'guides/DreamHost',
@@ -130,15 +135,19 @@ module.exports = {
             'guides/Nextcloud',
             'guides/Vercel',
           ],
-        },
-        {
-          '3D Printing': [
+    },
+    {
+      type: 'category',
+      label: '3D Printing',
+      items: [
             'guides/Tinkercad',
             'guides/Cura',
           ],
-        },
-        {
-          'Crypto & Stocks' : [
+    },
+    {
+      type: 'category',
+      label: 'Crypto & Stocks',
+      items: [
             'guides/Binance',
             'guides/Stake',
             'guides/UnstoppableDomains',
@@ -146,8 +155,6 @@ module.exports = {
             'guides/Yoroi',
             'guides/MyEtherWallet',
           ],
-        },
-      ],
     },
-  ]
+  ],
 };
