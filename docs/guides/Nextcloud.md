@@ -11,10 +11,9 @@ tags: [nextcloud, server, ubuntu]
 <i>15 February, 2021, Luke Reynolds</i><br/>
 <i>Difficulty: Advanced</i>
 
-[<img alt="Nextcloud UI Preview" src="/img/NextcloudUI.png" />](https://nextcloud.com/)
-
 In my pursuit to find a self-hosted replacement for my current cloud based providers such as OneNote, Google Drive, Photos, Calendar, and Contacts i've decided to setup a Nextcloud server. The server will be responsible for hosting and syncing my documents, photos, and other important day to day data between my devices. The server features a fully qualified domain name, Nginx reverse proxy, SSL encryption, 2FA, Android connectivity, and VNC for remote maintenance.
 
+[<img alt="Nextcloud UI Preview" src="/img/NextcloudUI.png" />](https://nextcloud.com/)
 
 ##### Requirements
 1. A computer to use as a server (I'm using an old Surface Pro).
