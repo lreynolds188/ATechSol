@@ -9,6 +9,7 @@ tags: [nextcloud, server, ubuntu]
 ---
 
 <i>15 February, 2021, Luke Reynolds</i>
+<i>Difficulty: Advanced</i>
 
 [<img alt="Nextcloud UI Preview" src="/img/NextcloudUI.png" />](https://nextcloud.com/)
 
