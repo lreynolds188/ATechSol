@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'Atechsol',
+  title: 'ATECHSOL',
   tagline: 'We solve problems and show you how',
   url: 'https://atechsol.com.au',
   baseUrl: '/',
@@ -12,7 +12,6 @@ module.exports = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'ATECHSOL',
       logo: {
         alt: 'ATECHSOL',
         src: 'img/favicon.ico',
