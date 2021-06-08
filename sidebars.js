@@ -97,16 +97,6 @@ module.exports = {
         },
       ],
     },
-    {
-      type: 'category',
-      label: 'Our Services',
-      items: [
-        'about/Implementation', 
-        'about/InformationSecurity', 
-        'about/Support', 
-        'about/Automation',
-      ],
-    },
   ],
   guides: [
     'guides/Welcome', 
@@ -157,4 +147,10 @@ module.exports = {
       ],
     },
   ],
+  services: [
+    'services/Implementation',
+    'services/Information',
+    'services/Support',
+    'services/Automation',
+  ]
 };
