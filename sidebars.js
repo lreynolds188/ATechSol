@@ -136,11 +136,12 @@ module.exports = {
         'guides/Vercel',
         'guides/Nextcloud',
         'guides/InvoiceNinja',
+        'guides/UnstoppableDomains',
       ],
     },
     {
       type: 'category',
-      label: '3D Printing',
+      label: '3D Modelling',
       items: [
         'guides/Tinkercad',
         'guides/Cura',
@@ -152,7 +153,6 @@ module.exports = {
       items: [
         'guides/Binance',
         'guides/Stake',
-        'guides/UnstoppableDomains',
         'guides/Ledger',
         'guides/Yoroi',
         'guides/MyEtherWallet',
