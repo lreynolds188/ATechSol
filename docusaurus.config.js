@@ -1,10 +1,10 @@
 module.exports = {
-  title: 'Automated Tech Solutions',
+  title: 'Atechsol',
   tagline: 'We solve problems and show you how',
-  url: 'https://automatedtechnicalsolutions.com',
+  url: 'https://atechsol.com.au',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'Automated Tech Solutions', // Usually your GitHub org/user name.
+  organizationName: 'Atechsol', // Usually your GitHub org/user name.
   themeConfig: {
     colorMode: {
       defaultMode: 'dark',
@@ -12,9 +12,9 @@ module.exports = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'ATS',
+      title: 'Atechsol',
       logo: {
-        alt: 'Automated Tech Solutions',
+        alt: 'Atechsol',
         src: 'img/favicon.ico',
       },
       links: [
@@ -75,7 +75,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Automated Tech Solutions`,
+      copyright: `Copyright © ${new Date().getFullYear()} Atechsol`,
     },
   },
   presets: [
