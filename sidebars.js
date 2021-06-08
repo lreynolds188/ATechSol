@@ -6,18 +6,6 @@ module.exports = {
       label: 'Open Source Software',
       items: [
         {
-          'Desktop Operating Systems': [
-            'about/Kubuntu', 
-            'about/Ubuntu',
-          ],
-        },
-        {
-          'Mobile Operating Systems': [
-            'about/GrapheneOS', 
-            'about/UbuntuTouch',
-          ],
-        },
-        {
           'Web Browsers': [
             'about/Brave',
             'about/Firefox',
@@ -37,6 +25,18 @@ module.exports = {
             'about/VSCode',
             'about/Krita',
             'about/InvoiceNinja',
+          ],
+        },
+        {
+          'Desktop Operating Systems': [
+            'about/Kubuntu', 
+            'about/Ubuntu',
+          ],
+        },
+        {
+          'Mobile Operating Systems': [
+            'about/GrapheneOS', 
+            'about/UbuntuTouch',
           ],
         },
         {
