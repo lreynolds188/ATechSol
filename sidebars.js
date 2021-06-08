@@ -22,9 +22,9 @@ module.exports = {
           'Office Tools': [
             'about/LibreOffice', 
             'about/Joplin', 
-            'about/VSCode',
             'about/Krita',
             'about/InvoiceNinja',
+            'about/VSCode',
           ],
         },
         {
@@ -53,10 +53,11 @@ module.exports = {
       items: [
         {
           'Hosting': [ 
-            'about/Cloudflare', 
             'about/DreamHost',
+            'about/Cloudflare', 
             'about/GitHub', 
             'about/Vercel',
+            'about/UnstoppableDomains',
           ],
         },
         {
@@ -116,8 +117,8 @@ module.exports = {
       label: 'Software',
       items: [
         'guides/Brave',
-        'guides/LibreOffice', 
         'guides/Signal',
+        'guides/LibreOffice', 
         'guides/Joplin', 
         'guides/Krita',
         'guides/VSCode',
@@ -132,9 +133,9 @@ module.exports = {
         'guides/DreamHost',
         'guides/Cloudflare',
         'guides/Tutanota',
-        'guides/InvoiceNinja',
-        'guides/Nextcloud',
         'guides/Vercel',
+        'guides/Nextcloud',
+        'guides/InvoiceNinja',
       ],
     },
     {
