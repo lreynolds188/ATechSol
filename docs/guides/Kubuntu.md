@@ -30,7 +30,7 @@ In my search to replace Windows as my primary operating system I have found Linu
 <h2>Installation Media</h2>
 
 ### Download Disk Image
-The installation disk for Kubuntu can be found [here](https://kubuntu.org/getkubuntu/). 
+The installation disk for Kubuntu can be found [here](https://kubuntu.org/getkubuntu/).<br/> 
 Alternatively the installation disk for Ubuntu can be found [here](https://ubuntu.com/download).
 
 Download your preferred operating system's disk image in preparation for creating the bootable USB.
