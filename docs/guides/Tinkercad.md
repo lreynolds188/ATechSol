@@ -1,6 +1,6 @@
 ---
 id: Tinkercad
-title: Basic Model Creation With Tinkercad
+title: Model Creation With Tinkercad
 author: Luke Reynolds
 author_title: Owner @ Automated Tech Solutions
 author_url: https://github.com/lreynolds188

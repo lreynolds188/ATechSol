@@ -1,6 +1,6 @@
 ---
 id: Cura
-title: Slicing 3D Models With Cura
+title: Model Slicing With Cura
 author: Luke Reynolds
 author_title: Owner @ Automated Tech Solutions
 author_url: https://github.com/lreynolds188
