@@ -109,8 +109,9 @@ module.exports = {
       label: 'Guides',
       items: [
         'guides/Welcome', 
-        'guides/Nextcloud', 
-        'guides/GrapheneOS', 
+        'guides/Kubuntu',
+        'guides/GrapheneOS',
+        'guides/Nextcloud',
         'guides/Joplin', 
         'guides/LibreOffice', 
         'guides/Vercel'
