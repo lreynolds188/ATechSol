@@ -1,6 +1,6 @@
 ---
-id: Joplin
-title: Joplin Self-Hosted Setup & Configuration
+id: Yoroi
+title: Yoroi Cardano Wallet Transfers & Staking
 author: Luke Reynolds
 author_title: Owner @ Automated Tech Solutions
 author_url: https://github.com/lreynolds188
@@ -8,4 +8,4 @@ author_image_url: https://thereynolds.com.au/_next/image?url=%2Fprofile.jpg&w=25
 ---
 
 Coming soon.<br/>
-<i>Difficulty: Beginner</i>
+<i>Difficulty: Intermediate</i>

@@ -104,17 +104,49 @@ module.exports = {
     'about/Donate',
   ],
   guides: [
+    'guides/Welcome', 
     {
       type: 'category',
       label: 'Guides',
       items: [
-        'guides/Welcome', 
-        'guides/Kubuntu',
-        'guides/GrapheneOS',
-        'guides/Nextcloud',
-        'guides/Joplin', 
-        'guides/LibreOffice', 
-        'guides/Vercel'
+        {
+          'Software': [
+            'guides/Brave',
+            'guides/LibreOffice', 
+            'guides/Signal',
+            'guides/Joplin', 
+            'guides/Krita',
+            'guides/VSCode',
+            'guides/Kubuntu',
+            'guides/GrapheneOS',
+          ],
+        },
+        {
+          'Online Infrastructure': [
+            'guides/Tutanota',
+            'guides/InvoiceNinja',
+            'guides/DreamHost',
+            'guides/Cloudflare',
+            'guides/Nextcloud',
+            'guides/Vercel',
+          ],
+        },
+        {
+          '3D Printing': [
+            'guides/Tinkercad',
+            'guides/Cura',
+          ],
+        },
+        {
+          'Crypto & Stocks' : [
+            'guides/Binance',
+            'guides/Stake',
+            'guides/UnstoppableDomains',
+            'guides/Ledger',
+            'guides/Yoroi',
+            'guides/MyEtherWallet',
+          ],
+        },
       ],
     },
   ]

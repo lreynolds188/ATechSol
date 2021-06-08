@@ -1,6 +1,6 @@
 ---
-id: Joplin
-title: Joplin Self-Hosted Setup & Configuration
+id: MyEtherWallet
+title: MyEtherWallet Installation & Transfers
 author: Luke Reynolds
 author_title: Owner @ Automated Tech Solutions
 author_url: https://github.com/lreynolds188
