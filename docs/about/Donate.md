@@ -15,4 +15,4 @@ If you appreciate the information and/or services we provide feel free to contac
 <br/>
 
 PayPal: [https://www.paypal.com/donate?hosted_button_id=UFU7SDK43VYFN](https://www.paypal.com/donate?hosted_button_id=UFU7SDK43VYFN)<br/>
-Cardano/Ether/Stellar: atechsol.crypto
+Cardano/Ethereum/Stellar: atechsol.crypto
