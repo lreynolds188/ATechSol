@@ -8,7 +8,7 @@ author_image_url: https://thereynolds.com.au/_next/image?url=%2Fprofile.jpg&w=25
 tags: [nextcloud, server, ubuntu]
 ---
 
-<i>15 February, 2021, Luke Reynolds</i>
+<i>15 February, 2021, Luke Reynolds</i><br/>
 <i>Difficulty: Advanced</i>
 
 [<img alt="Nextcloud UI Preview" src="/img/NextcloudUI.png" />](https://nextcloud.com/)

@@ -7,7 +7,7 @@ author_url: https://github.com/lreynolds188
 author_image_url: https://thereynolds.com.au/_next/image?url=%2Fprofile.jpg&w=256&q=75
 ---
 
-<i>8 June, 2021, Luke Reynolds</i>
+<i>8 June, 2021, Luke Reynolds</i><br/>
 <i>Difficulty: Intermediate</i>
 
 [<img alt="Kubuntu Desktop Preview" src="/img/KubuntuDesktop.png" />](https://kubuntu.org/)
