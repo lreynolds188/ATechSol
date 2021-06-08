@@ -12,9 +12,9 @@ module.exports = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'Atechsol',
+      title: 'ATECHSOL',
       logo: {
-        alt: 'Atechsol',
+        alt: 'ATECHSOL',
         src: 'img/favicon.ico',
       },
       links: [
