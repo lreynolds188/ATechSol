@@ -7,4 +7,4 @@ Tinkercad is a versatile online 3D modelling utility. It is free to use and is g
 
 [<img alt="Tinkercad Preview" src="/img/Tinkercad.png" />](https://www.tinkercad.com)
 
-To find out more about this 3D modelling utility you can visit their website [here](https://www.tinkercad.com).
+To find out more about this 3D modeling utility you can visit their website [here](https://www.tinkercad.com).

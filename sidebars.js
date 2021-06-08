@@ -141,7 +141,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: '3D Modelling',
+      label: '3D Modeling',
       items: [
         'guides/Tinkercad',
         'guides/Cura',
