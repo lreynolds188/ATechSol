@@ -29,7 +29,7 @@ module.exports = {
         },
         {
           label: 'Services',
-          to: 'docs/about/Implementation',
+          to: 'docs/services/Implementation',
           position: 'left',
         },
         {
