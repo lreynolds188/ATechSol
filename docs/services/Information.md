@@ -1,5 +1,5 @@
 ---
-id: InformationSecurity
+id: Information
 title: Information & Security
 ---
 
