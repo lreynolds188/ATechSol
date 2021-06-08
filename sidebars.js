@@ -107,8 +107,6 @@ module.exports = {
         'about/Automation',
       ],
     },
-    'about/Contact',
-    'about/Donate',
   ],
   guides: [
     'guides/Welcome', 
