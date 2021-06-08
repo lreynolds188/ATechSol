@@ -57,11 +57,11 @@ module.exports = {
           items: [
             {
               label: 'Privacy Policy',
-              to: 'docs/about/PrivacyPolicy',
+              to: 'docs/legal/PrivacyPolicy',
             },
             {
               label: 'Disclaimer',
-              to: 'docs/about/Disclaimer',
+              to: 'docs/legal/Disclaimer',
             },
             {
               label: 'Contact',
