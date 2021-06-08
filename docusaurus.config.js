@@ -1,10 +1,10 @@
 module.exports = {
-  title: 'ATECHSOL',
+  title: 'ATechSol',
   tagline: 'We solve problems and show you how',
   url: 'https://atechsol.com.au',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'Atechsol', // Usually your GitHub org/user name.
+  organizationName: 'ATechSol', // Usually your GitHub org/user name.
   themeConfig: {
     colorMode: {
       defaultMode: 'dark',
@@ -13,7 +13,7 @@ module.exports = {
     },
     navbar: {
       logo: {
-        alt: 'ATECHSOL',
+        alt: 'ATechSol',
         src: 'img/favicon.ico',
       },
       links: [
@@ -74,7 +74,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Atechsol`,
+      copyright: `Copyright © ${new Date().getFullYear()} ATechSol`,
     },
   },
   presets: [
