@@ -18,7 +18,7 @@ module.exports = {
       },
       links: [
         {
-          label: 'About',
+          label: 'Info',
           to: 'docs/about/Welcome',
           position: 'left',
         },
