@@ -7,12 +7,12 @@ If you appreciate the information and/or services we provide feel free to contac
 
 <br/>
 
-[<img alt="PayPal" src="/img/paypal.png" />](https://www.paypal.com/donate?hosted_button_id=UFU7SDK43VYFN)
-[<img alt="Cardano" src="/img/cardano.png" />](https://cardano.org/)<br/>
-[<img alt="Ethereum" src="/img/ethereum.png" />](https://ethereum.org/)
-[<img alt="Stellar" src="/img/stellar.png" />](https://www.stellar.org/)
+Fiat: [https://www.paypal.com/donate?hosted_button_id=UFU7SDK43VYFN](https://www.paypal.com/donate?hosted_button_id=UFU7SDK43VYFN)<br/>
+Crypto: atechsol.crypto
 
 <br/>
 
-Fiat: [https://www.paypal.com/donate?hosted_button_id=UFU7SDK43VYFN](https://www.paypal.com/donate?hosted_button_id=UFU7SDK43VYFN)<br/>
-Crypto: atechsol.crypto
+[<img alt="PayPal" src="/img/paypal.png" />](https://www.paypal.com/donate?hosted_button_id=UFU7SDK43VYFN)
+[<img alt="Cardano" src="/img/cardano.png" />](https://cardano.org/)
+[<img alt="Ethereum" src="/img/ethereum.png" />](https://ethereum.org/)
+[<img alt="Stellar" src="/img/stellar.png" />](https://www.stellar.org/)
