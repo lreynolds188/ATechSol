@@ -14,5 +14,5 @@ If you appreciate the information and/or services we provide feel free to contac
 
 <br/>
 
-PayPal: [https://www.paypal.com/donate?hosted_button_id=UFU7SDK43VYFN](https://www.paypal.com/donate?hosted_button_id=UFU7SDK43VYFN)<br/>
-Cardano/Ethereum/Stellar: atechsol.crypto
+Fiat: [https://www.paypal.com/donate?hosted_button_id=UFU7SDK43VYFN](https://www.paypal.com/donate?hosted_button_id=UFU7SDK43VYFN)<br/>
+Crypto: atechsol.crypto
