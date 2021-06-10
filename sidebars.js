@@ -17,14 +17,20 @@ module.exports = {
             'about/Tutanota',
           ],
         },
-        
         {
           'Office Tools': [
             'about/LibreOffice', 
             'about/Joplin', 
-            'about/Krita',
             'about/InvoiceNinja',
             'about/VSCode',
+          ],
+        },
+        {
+          '2D/3D Modeling': [
+            'about/Krita',
+            'about/Thingiverse',
+            'about/Tinkercad',
+            'about/Cura',
           ],
         },
         {
@@ -71,15 +77,6 @@ module.exports = {
     },
     {
       type: 'category',
-      label: '3D Printing',
-      items: [
-        'about/Thingiverse',
-        'about/Tinkercad',
-        'about/Cura',
-      ],
-    },
-    {
-      type: 'category',
       label: 'Cryptocurrency & Stocks',
       items: [
         {
@@ -109,8 +106,10 @@ module.exports = {
         'guides/Signal',
         'guides/LibreOffice', 
         'guides/Joplin', 
-        'guides/Krita',
         'guides/VSCode',
+        'guides/Krita',
+        'guides/Tinkercad',
+        'guides/Cura',
         'guides/Kubuntu',
         'guides/GrapheneOS',
       ],
@@ -126,14 +125,6 @@ module.exports = {
         'guides/Nextcloud',
         'guides/InvoiceNinja',
         'guides/UnstoppableDomains',
-      ],
-    },
-    {
-      type: 'category',
-      label: '3D Modeling',
-      items: [
-        'guides/Tinkercad',
-        'guides/Cura',
       ],
     },
     {
