@@ -3,9 +3,11 @@ id: Brave
 title: Brave
 ---
 
-Brave is a new web browser built on Chromium's open source platform that utilizes blockchain technology. It features its own adblock, tracking protection,  and synchronization of preferences, passwords, bookmarks, etc via blockchain. As well as the option to opt-in and receive brave ads to earn Basic Attention Token's (BAT) a form of crypto-currency. 
+Brave is a new web browser built on Chromium's open source platform that utilizes blockchain technology. Available on all desktop and mobile devices it features its own adblock, tracking protection, and synchronisation of preferences, passwords, bookmarks, etc. 
 
-This project shows great promise though there is still some refinement to be done as far as rewards functionality goes but the rest of the browser is fast, functional, and privacy conscious.
+They also offer the option to opt-in to receive brave ads and earning Basic Attention Token's (BAT) a form of crypto-currency as a result. 
+
+This project shows great promise though there are still some issues to be resolved as far as the rewards functionality goes. Despite this temporary limitation the browser remains fast, functional, and privacy conscious.
 
 [<img alt="Brave Browser Preview" src="/img/BraveBrowser.png" />](https://brave.com)
 

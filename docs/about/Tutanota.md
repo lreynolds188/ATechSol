@@ -3,7 +3,7 @@ id: Tutanota
 title: Tutanota
 ---
 
-Tutanota is a German based open source end-to-end encrypted emailing service. They are the second largest provider of privacy based emailing and offer all the services you'd come to expect like custom domains, alias', encrypted calendar/contacts, and much more at a respectable price.
+Tutanota is an open source end-to-end encrypted emailing service. They offer a mail client that is available on all desktop and mobile devices and are the second largest provider of privacy based emailing. Their service combines all of the features we come to expect like custom domains, alias', encrypted calendar/contacts, and much more at a respectable price.
 
 [<img alt="Tutanota Website Preview" src="/img/Tutanota.png" />](https://tutanota.com/)
 

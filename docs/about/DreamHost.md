@@ -3,7 +3,7 @@ id: DreamHost
 title: DreamHost
 ---
 
-While searching for a domain registrar the current cheapest and most privacy conscious has been DreamHost. While they do not currently have full support for transfer of all domain registrations and segregated alias', they do have a great portal, good prices, privacy, and collaborate with Cloudflare. Can't help but love the subtle attitude on their site from the support team having to deal with the same questions over and over.
+DreamHost is currently the cheapest and most privacy conscious domain provider we have found on the market today. While they do not currently have full support for transfer of all domain registrations and segregated alias' they do have a decent interface, good prices, privacy, and collaborate with Cloudflare. Can't help but love the subtle attitude on their site from the support team having to deal with the same questions over and over.
 
 [<img alt="DreamHost Website" src="/img/DreamHost.png" />](https://www.dreamhost.com/)
 

@@ -3,7 +3,7 @@ id: LibreOffice
 title: LibreOffice
 ---
 
-LibreOffice is the successor to OpenOffice. It is a free and open source office suite that features word, spreadsheet, presentation, diagram, database, formula, and chart processing.
+LibreOffice is the successor to OpenOffice. It is an open source office suite that features word, spreadsheet, presentation, diagram, database, formula, and chart processing. Available on all desktop devices it is dark mode compatible and takes the pain and cost out of modifying your business or personal documents.
 
 [<img alt="LibreOffice Writer Preview" src="/img/LibreOffice.png" />](https://www.libreoffice.org)
 

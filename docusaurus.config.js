@@ -1,6 +1,6 @@
 module.exports = {
   title: 'ATechSol',
-  tagline: 'We solve problems and teach you how',
+  tagline: 'We solve problems and show you how',
   url: 'https://atechsol.com.au',
   baseUrl: '/',
   favicon: 'img/favicon.ico',

@@ -3,7 +3,7 @@ id: VirtualBox
 title: VirtualBox
 ---
 
-Description coming soon.
+VirtualBox is a virtualisation tool that can be used to emulate other computers and servers on the one physical machine. Available on all desktop systems it is incredibly robust and simple to use when compared with other virtualisation utilities.
 
 [<img alt="VirtualBox Preview" src="/img/VirtualBox.png" />](https://www.virtualbox.org/)
 

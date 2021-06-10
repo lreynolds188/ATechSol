@@ -3,7 +3,7 @@ id: InvoiceNinja
 title: InvoiceNinja
 ---
 
-While we have only just found out about this project we could not be happier with the service provided thus far. Built on, you guessed it, open source, this project can be run from your own dedicated server at no cost. InvoiceNinja does however offer a cloud hosted alternative for small business for free forever.
+InoivceNinja is an incredibly versatile invoicing system built on, you guessed it, open source. Accessible through any browser this project can be run from your own dedicated server at no cost and features every tool or adjustment you could think of. InvoiceNinja does however offer a hosted alternative for small business for free forever (limited customisability) and affordable hosting options for medium to large business'. 
 
 [<img alt="InvoiceNinja Preview" src="/img/InvoiceNinja.png" />](https://www.invoiceninja.com/)
 
