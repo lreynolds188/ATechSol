@@ -23,6 +23,7 @@ module.exports = {
             'about/Joplin', 
             'about/InvoiceNinja',
             'about/VSCode',
+            'about/Skiff',
           ],
         },
         {
