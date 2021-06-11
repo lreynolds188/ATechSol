@@ -81,17 +81,28 @@ module.exports = {
       label: 'Cryptocurrency & Stocks',
       items: [
         {
-          'Exchanges': [ 
-            'about/Binance',
-            'about/Coinspot', 
+          'Market Tracking': [
+            'about/TradingView',
+          ],
+        },
+        {
+          'Stock Exchanges': [
             'about/Stake',
           ],
         },
         {
-          'Wallets': [
+          'Crypto Exchanges': [ 
+            'about/Kraken',
+            'about/Binance',
+            'about/Coinspot',
+          ],
+        },
+        {
+          'Crypto Wallets': [
             'about/Ledger',
             'about/Yoroi',
             'about/MyEtherWallet',
+            'about/Solar',
         ],
         },
       ],
