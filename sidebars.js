@@ -93,6 +93,7 @@ module.exports = {
         {
           'Crypto Exchanges': [ 
             'about/Kraken',
+            'about/Gemini',
             'about/CoinSpot',
           ],
         },
