@@ -127,7 +127,7 @@ module.exports = {
       type: 'category',
       label: 'Crypto & Stocks',
       items: [
-        
+        'guides/Ledger',
       ],
     },
   ],
