@@ -102,7 +102,6 @@ module.exports = {
             'about/Ledger',
             'about/Yoroi',
             'about/MyEtherWallet',
-            'about/Solar',
         ],
         },
       ],
