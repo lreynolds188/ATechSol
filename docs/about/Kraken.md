@@ -3,7 +3,7 @@ id: Kraken
 title: Kraken
 ---
 
-Description coming soon.
+Kraken is currently our first choice for a cryptocurrency exchange. They offer great support, a large selection of tokens, reasonable fees and seamless purchasing, withdrawals, and staking.
 
 [<img alt="Kraken website preview" src="/img/Kraken.png" />](https://www.kraken.com/)
 
