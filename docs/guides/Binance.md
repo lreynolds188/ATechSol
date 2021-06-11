@@ -1,6 +1,6 @@
 ---
-id: Binance
-title: Binance Crypto Exchange Setup
+id: Kraken
+title: Kraken Crypto Exchange Setup
 ---
 
 <i>Difficulty: Beginner</i>
