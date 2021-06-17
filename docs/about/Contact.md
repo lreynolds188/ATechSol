@@ -9,4 +9,4 @@ We are currently only servicing a small customer base in the Brisbane, Queenslan
 
 Email: info@atechsol.com.au<br/>
 Phone: (+61) 434 518 262<br/>
-Business hours: 9:30am - 4:30pm, Mon - Thurs
+Business hours: 10am - 4pm, Mon - Thurs
