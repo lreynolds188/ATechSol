@@ -11,6 +11,6 @@ If you appreciate the information and/or services we provide feel free to contac
 [<img alt="PayPal" src="/img/paypal.png" />](https://www.paypal.com/donate?hosted_button_id=UFU7SDK43VYFN)
 
 ### Crypto
-ADA/ETH: atechsol.crypto
+ADA/ETH: atechsol.crypto<br/>
 [<img alt="Cardano" src="/img/cardano.png" />](https://cardano.org/)
 [<img alt="Ethereum" src="/img/ethereum.png" />](https://ethereum.org/)<br/>
