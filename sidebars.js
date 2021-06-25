@@ -48,9 +48,10 @@ module.exports = {
         },
         {
           'Server & Maintenance': [
+            'about/VirtualBox',
+            'about/UbuntuServer',
             'about/Nextcloud',
             'about/RealVNC',
-            'about/VirtualBox',
           ],
         },
       ],
