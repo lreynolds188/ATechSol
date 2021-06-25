@@ -3,7 +3,7 @@ id: Implementation
 title: Implementation
 ---
 
-We can help to install, configure, maintain, and educate on:
+We can help to install, maintain, and educate on:
 - [Open Source Software](about/Brave.md) (operating systems, web browsers, search engines, office and cloud utilities)
 - [Online Infrastructure](about/DreamHost.md) (domain, website, email, hosting, server)
 - [3D Printing](about/Thingiverse.md) (modeling, printing, and scanning)
