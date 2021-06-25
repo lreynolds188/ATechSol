@@ -72,7 +72,12 @@ module.exports = {
           'Search Engines': [
             'about/DuckDuckGo',
             'about/BraveSearch',
-        ],
+          ],
+        },
+        {
+          'Payment Systems': [
+            'about/Stripe',
+          ],
         },
       ],
     },
