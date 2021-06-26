@@ -71,8 +71,8 @@ module.exports = {
         },
         {
           'Search Engines': [
-            'about/DuckDuckGo',
             'about/BraveSearch',
+            'about/DuckDuckGo',
           ],
         },
         {
@@ -98,9 +98,9 @@ module.exports = {
         },
         {
           'Crypto Exchanges': [ 
+            'about/Binance',
             'about/Kraken',
             'about/Gemini',
-            'about/CoinSpot',
           ],
         },
         {
