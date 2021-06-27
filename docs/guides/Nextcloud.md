@@ -108,7 +108,7 @@ Create a new virtual machine for the NginX Reverse Proxy. Set it up the same as 
 <br/>
 
 ### Reverse Proxy Server Setup
-Start up the reverse proxy server and go through the motions of installing ubuntu server, this time not selecting any snaps when prompted. Once installation is complete login and set a static IP for the VM. Refer to the nextcloud [static IP](#setting-a-static-ip-for-the-vm) for guidance.
+Start up the reverse proxy server and go through the motions of installing ubuntu server, this time not selecting any snaps when prompted. Once installation is complete login and set a static IP for the VM. Refer to the Nextcloud [static IP](#setting-a-static-ip-for-the-vm) setup for guidance.
 
 Once logged in, install NginX with 
 ```jsx
