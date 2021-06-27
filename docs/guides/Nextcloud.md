@@ -15,10 +15,12 @@ In my pursuit to find a self-hosted replacement for my current cloud based provi
 ##### Requirements (Local Connection)
 1. A computer to use as a server (I'm using an old Surface Pro).
 
-2. A router.
+2. Access to a router.
+
+<br/>
 
 ##### Optional Requirements (Internet Connection)
-3. A static IP and domain name or DynamicDNS.
+3. A static IP and domain name or dynamicDNS.
 
 <!--truncate-->
 
@@ -27,13 +29,13 @@ In my pursuit to find a self-hosted replacement for my current cloud based provi
 <h2>Local Cloud Setup</h2>
 
 ### Nextcloud Virtual Machine
-I decided to install [Ubuntu 20.04](https://ubuntu.com/download/desktop) on my host machine but you may use whatever operating system you prefer. 
+For the host operating system I decided to install [Ubuntu 20.04](https://ubuntu.com/download/desktop) because it supports automatic updates but you can use whatever operating system you prefer. 
 
 Once the server has a fresh operating system installed, download and install [VirtualBox](https://www.virtualbox.org/) or your preferred virtualization software and download the latest [Ubuntu Server Image](https://ubuntu.com/download/server) (Option 2).
 
-Once the virtualization software is installed create a new virtual machine for the Nextcloud server. Setting the VM's hard drive to "dynamically allocated" and limiting the size to whatever space is available on the physical hard drive at the time subtracting ~20gb for the host operating system.
+Once the virtualization software is installed create a new virtual machine for the Nextcloud server. Setting the VM's hard drive to dynamically allocated and limiting the size to whatever space is available on the physical hard drive at the time subtracting ~20gb for the host operating system.
 
-After creating the virtual machine, go into the network settings and set the mode to "bridged". This sets the machine as an independent host on the network allowing visibility.
+After creating the virtual machine go into the network settings and set the mode to bridged. This sets the machine as an independent host on the network allowing visibility.
 
 <br/>
 
@@ -42,8 +44,8 @@ Start up the nextcloud server and select the ubuntu server image when prompted f
 
 <br/>
 
-### Setting Static IP's for the VM's
-To set a static IP on each of the virtual machines boot them up and run the following command to install net-tools. 
+### Setting a Static IP for the VM
+To set a static IP on the virtual machine start it up and run the following command to install net-tools. 
 ```jsx
 sudo apt install net-tools
 ```
@@ -79,12 +81,12 @@ sudo netplan apply
 <h2>Remote Maintenance</h2>
 
 ### RealVNC Server Setup
-RealVNC Server can be found [here](https://www.realvnc.com/en/connect/download/vnc/)
+Download and install [RealVNC Server](https://www.realvnc.com/en/connect/download/vnc/) to the host machine.
 
 <br/>
 
 ### RealVNC Viewer Setup
-RealVNC Viewer can be found [here](https://www.realvnc.com/en/connect/download/viewer/)
+Download and install [RealVNC Viewer](https://www.realvnc.com/en/connect/download/viewer/) to your mobile or desktop PC to access your server remotely.
 
 <br/>
 
