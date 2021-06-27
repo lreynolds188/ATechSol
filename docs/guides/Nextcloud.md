@@ -244,7 +244,7 @@ Adding the line
 Which will automatically renew the certificates at midnight on the first of every other month.
 <br/><br/>
 
-### 2-Factor Authentication
+### Nextcloud 2-Factor Authentication
 Login to your Nextcloud instance, click your profile at the top right and select Apps. Go to Security and download and enable Two-Factor TOTP Provider.
 Once the application is installed, go to Settings -> Security -> Enable TOTP
 Use the same authenticator you installed for RealVNC to configure 2FA for your Nextcloud server.
