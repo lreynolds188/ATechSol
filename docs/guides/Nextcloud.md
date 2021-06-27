@@ -98,7 +98,7 @@ Once your 2FA application is ready, go to the RealVNC website, sign in, and setu
 <br/><br/>
 
 <h2>Exposing Server to the Internet</h2>
-NOTE: If you are only configuring Nextcloud for a local network you can stop here. To access, type the Nextcloud server's IP address in a browser and follow the setup guide.
+NOTE: If you are only configuring Nextcloud for a local network you can stop here. To access the server type the Nextcloud virtual machine's IP address in a browser and follow the setup guide.
 
 <br/>
 
