@@ -3,7 +3,7 @@ id: Nextcloud
 title: Nextcloud Server Ubuntu 20.04
 ---
 
-<i>15 February, 2021, Luke Reynolds</i><br/>
+<i>22 June, 2021, Luke Reynolds</i><br/>
 <i>Difficulty: Advanced</i>
 
 <br/><br/>
@@ -25,7 +25,7 @@ In my pursuit to find a self-hosted replacement for my current cloud based provi
 
 <h2>Local Cloud Setup</h2>
 
-### Virtual Machines
+### Nextcloud Virtual Machine
 There will be 2 virtual machines that will be responsible for hosting your server. The first of these machines will store your Nextcloud instance, while the second will store the NginX reverse proxy. I decided to install Ubuntu 20.04 on my host machine but you may use whatever OS you prefer. Once the server has a fresh OS installation, install VirtualBox or your preferred virtualization software and download the latest image of Ubuntu Server (.iso).
 
 Once the virutalization software is installed create 2 new virtual machines. Set both the server hard drives to be dynamically allocated, giving the NginX server a maximum of 8gb and the Nextcloud server whatever remaining space is available, preferably leaving around 10gb free for the host machine.
@@ -36,6 +36,70 @@ After creating the virtual machines, go into the network settings of each and se
 
 ### Nextcloud Server Setup
 Start up the nextcloud server and select the ubuntu server image when prompted for a startup disk. This will load up the ubuntu server image and begin the installation process. The only extra step to do during the installation is to select the Nextcloud snap when prompted with the list of commonly installed snaps.
+
+<br/>
+
+### Setting Static IP's for the VM's
+To set a static IP on each of the virtual machines boot them up and run the following command to install net-tools. 
+```jsx
+sudo apt install net-tools
+```
+
+Once net-tools is installed run `ifconfig` and note down the current IP address of the virtual machine.
+
+Next we will modify the netplan .yaml file. 
+```jsx
+sudo nano /etc/netplan/00-installer-config.yaml
+```
+
+Modifying the file to appear as follows (replacing [ip-address] and [gateway]):
+```jsx
+network:
+version: 2
+renderer: network
+     ethernets:
+         ens3:
+             dhcp4: no
+             addresses:
+                 - [ip-address]/24
+             gateway4: [gateway]
+             nameservers:
+                 addresses: [8.8.8.8, 1.1.1.1]
+```
+
+Ctrl-X, Y, Enter to save and exit. Then run: 
+```jsx
+sudo netplan apply
+```
+<br/><br/>
+
+<h2>Remote Maintenance</h2>
+
+### RealVNC Server Setup
+RealVNC Server can be found [here](https://www.realvnc.com/en/connect/download/vnc/)
+
+<br/>
+
+### RealVNC Viewer Setup
+RealVNC Viewer can be found [here](https://www.realvnc.com/en/connect/download/viewer/)
+
+<br/>
+
+### RealVNC 2-Factor Authentication
+Install FreeOTP+ or your chosen 2FA code generator from [Playstore](https://play.google.com/store/apps/details?id=org.liberty.android.freeotpplus&hl=en_US&gl=US)
+
+Once your 2FA application is ready, go to the RealVNC website, sign in, and setup 2FA. 
+
+<br/><br/>
+
+<h2>Exposing Server to the Internet</h2>
+
+### NginX Reverse Proxy Virtual Machine
+There will be 2 virtual machines that will be responsible for hosting your server. The first of these machines will store your Nextcloud instance, while the second will store the NginX reverse proxy. I decided to install Ubuntu 20.04 on my host machine but you may use whatever OS you prefer. Once the server has a fresh OS installation, install VirtualBox or your preferred virtualization software and download the latest image of Ubuntu Server (.iso).
+
+Once the virutalization software is installed create 2 new virtual machines. Set both the server hard drives to be dynamically allocated, giving the NginX server a maximum of 8gb and the Nextcloud server whatever remaining space is available, preferably leaving around 10gb free for the host machine.
+
+After creating the virtual machines, go into the network settings of each and set the mode to "bridged". This sets the machines as independent hosts on the network allowing visibility.
 
 <br/>
 
@@ -98,61 +162,6 @@ server {
 NOTE: This configuration file is designed for a HTTPS connection and will not function correctly until SSL encryption has been configured.
 
 <br/>
-
-### Setting Static IP's for the VM's
-To set a static IP on each of the virtual machines boot them up and run the following command to install net-tools. 
-```jsx
-sudo apt install net-tools
-```
-
-Once net-tools is installed run `ifconfig` and note down the current IP address of the virtual machine.
-
-Next we will modify the netplan .yaml file. 
-```jsx
-sudo nano /etc/netplan/00-installer-config.yaml
-```
-
-Modifying the file to appear as follows (replacing [ip-address] and [gateway]):
-```jsx
-network:
-version: 2
-renderer: network
-     ethernets:
-         ens3:
-             dhcp4: no
-             addresses:
-                 - [ip-address]/24
-             gateway4: [gateway]
-             nameservers:
-                 addresses: [8.8.8.8, 1.1.1.1]
-```
-
-Ctrl-X, Y, Enter to save and exit. Then run: 
-```jsx
-sudo netplan apply
-```
-<br/><br/>
-
-<h2>Remote Maintenance</h2>
-
-### RealVNC Server Setup
-RealVNC Server can be found [here](https://www.realvnc.com/en/connect/download/vnc/)
-
-<br/>
-
-### RealVNC Viewer Setup
-RealVNC Viewer can be found [here](https://www.realvnc.com/en/connect/download/viewer/)
-
-<br/>
-
-### 2-Factor Authentication
-Install FreeOTP+ or your chosen 2FA code generator from [Playstore](https://play.google.com/store/apps/details?id=org.liberty.android.freeotpplus&hl=en_US&gl=US)
-
-Once your 2FA application is ready, go to the RealVNC website, sign in, and setup 2FA. 
-
-<br/><br/>
-
-<h2>Exposing Server to the Internet</h2>
 
 ### Port Forwarding
 In your router’s settings, configure port 80 to forward all traffic to the NginX server and port 443 to forward TCP traffic to the NginX server. For additional help please refer to your router's online manual.
