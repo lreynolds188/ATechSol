@@ -176,7 +176,7 @@ In your router’s settings, configure port 80 to forward all traffic to the Ngi
 
 ### Static IP or Dynamic DNS
 ##### Option 1: Static IP & Domain Name
-This option requires that your internet service provider is delegating a static IP to your internet connection. This usually comes default on business lines and can be an optional extra for home connections. It additionally requires the ownership of a domain name.
+This option requires that your internet service provider is delegating a static IP to your internet connection. This usually comes default on business lines and can be an optional extra for home connections. It additionally requires the purchase or ownership of a [fully qualified domain name](https://www.dreamhost.com/).
 
 Configure A records in your domain's DNS configuration portal to point at your public static IP address. For help finding your public IP address click [here](https://www.whatismyip.com/).
 
