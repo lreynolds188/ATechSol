@@ -95,11 +95,11 @@ Install FreeOTP+ or your chosen 2FA code generator from [Playstore](https://play
 
 Once your 2FA application is ready, go to the RealVNC website, sign in, and setup 2FA. 
 
-<br/>
+<br/><br/>
 
 NOTE: If you are only configuring Nextcloud for a local network you can stop here. To access, type the Nextcloud server's IP address in a browser and follow the setup guide.
 
-<br/><br/>
+<br/>
 
 <h2>Exposing Server to the Internet</h2>
 
@@ -109,7 +109,7 @@ Create a new virtual machine for the NginX Reverse Proxy. Set it up the same as 
 <br/>
 
 ### Reverse Proxy Server Setup
-Start up the reverse proxy server and go through the motions of installing ubuntu server, this time not selecting any snaps when prompted. Once installation is complete login and set a static IP for the VM. Refer to the nextcloud static IP for guidance.
+Start up the reverse proxy server and go through the motions of installing ubuntu server, this time not selecting any snaps when prompted. Once installation is complete login and set a static IP for the VM. Refer to the nextcloud [static IP](#setting-a-static-ip-for-the-vm) for guidance.
 
 Once logged in, install NginX with 
 ```jsx
