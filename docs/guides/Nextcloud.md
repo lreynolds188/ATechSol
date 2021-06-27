@@ -12,12 +12,13 @@ In my pursuit to find a self-hosted replacement for my current cloud based provi
 
 [<img alt="Nextcloud UI Preview" src="/img/NextcloudUI.png" />](https://nextcloud.com/)
 
-##### Requirements
+##### Requirements (Local Connection)
 1. A computer to use as a server (I'm using an old Surface Pro).
 
-2. A static IP and domain name or DynamicDNS.
+2. A router.
 
-3. Access to your router's control panel.
+##### Optional Requirements (Internet Connection)
+3. A static IP and domain name or DynamicDNS.
 
 <!--truncate-->
 
@@ -26,11 +27,13 @@ In my pursuit to find a self-hosted replacement for my current cloud based provi
 <h2>Local Cloud Setup</h2>
 
 ### Nextcloud Virtual Machine
-There will be 2 virtual machines that will be responsible for hosting your server. The first of these machines will store your Nextcloud instance, while the second will store the NginX reverse proxy. I decided to install Ubuntu 20.04 on my host machine but you may use whatever OS you prefer. Once the server has a fresh OS installation, install VirtualBox or your preferred virtualization software and download the latest image of Ubuntu Server (.iso).
+I decided to install [Ubuntu 20.04](https://ubuntu.com/download/desktop) on my host machine but you may use whatever operating system you prefer. 
 
-Once the virutalization software is installed create 2 new virtual machines. Set both the server hard drives to be dynamically allocated, giving the NginX server a maximum of 8gb and the Nextcloud server whatever remaining space is available, preferably leaving around 10gb free for the host machine.
+Once the server has a fresh operating system installed, download and install [VirtualBox](https://www.virtualbox.org/) or your preferred virtualization software and download the latest [Ubuntu Server Image](https://ubuntu.com/download/server) (Option 2).
 
-After creating the virtual machines, go into the network settings of each and set the mode to "bridged". This sets the machines as independent hosts on the network allowing visibility.
+Once the virtualization software is installed create a new virtual machine for the Nextcloud server. Setting the VM's hard drive to "dynamically allocated" and limiting the size to whatever space is available on the physical hard drive at the time subtracting ~20gb for the host operating system.
+
+After creating the virtual machine, go into the network settings and set the mode to "bridged". This sets the machine as an independent host on the network allowing visibility.
 
 <br/>
 
@@ -90,16 +93,14 @@ Install FreeOTP+ or your chosen 2FA code generator from [Playstore](https://play
 
 Once your 2FA application is ready, go to the RealVNC website, sign in, and setup 2FA. 
 
+NOTE: If you are only configuring Nextcloud for a local network you can stop here. To access, type the Nextcloud server's IP address in a browser and follow the setup guide.
+
 <br/><br/>
 
 <h2>Exposing Server to the Internet</h2>
 
 ### NginX Reverse Proxy Virtual Machine
-There will be 2 virtual machines that will be responsible for hosting your server. The first of these machines will store your Nextcloud instance, while the second will store the NginX reverse proxy. I decided to install Ubuntu 20.04 on my host machine but you may use whatever OS you prefer. Once the server has a fresh OS installation, install VirtualBox or your preferred virtualization software and download the latest image of Ubuntu Server (.iso).
-
-Once the virutalization software is installed create 2 new virtual machines. Set both the server hard drives to be dynamically allocated, giving the NginX server a maximum of 8gb and the Nextcloud server whatever remaining space is available, preferably leaving around 10gb free for the host machine.
-
-After creating the virtual machines, go into the network settings of each and set the mode to "bridged". This sets the machines as independent hosts on the network allowing visibility.
+Create a new virtual machine for the NginX Reverse Proxy. Set it up the same as the Nextcloud server with the hard drive as dynamically allocated with maximum of 8gb and the network mode "bridged".
 
 <br/>
 
