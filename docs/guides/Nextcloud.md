@@ -100,6 +100,8 @@ Once your 2FA application is ready, go to the RealVNC website, sign in, and setu
 <h2>Exposing Server to the Internet</h2>
 NOTE: If you are only configuring Nextcloud for a local network you can stop here. To access, type the Nextcloud server's IP address in a browser and follow the setup guide.
 
+<br/>
+
 ### NginX Reverse Proxy Virtual Machine
 Create a new virtual machine for the NginX Reverse Proxy. Set it up the same as the Nextcloud server: hard drive dynamically allocated with a maximum of 8gb and the network mode to bridged.
 
