@@ -31,7 +31,7 @@ In my pursuit to find a self-hosted replacement for my current cloud based provi
 ### Nextcloud Virtual Machine
 For the host operating system I decided to install [Ubuntu 20.04](https://ubuntu.com/download/desktop) because it supports automatic updates but you can use whatever operating system you prefer. 
 
-Once the server has a fresh operating system installed, download and install [VirtualBox](https://www.virtualbox.org/) or your preferred virtualization software and download the latest [Ubuntu Server Image](https://ubuntu.com/download/server) (Option 2).
+Once the host machine has a fresh operating system installed, download and install [VirtualBox](https://www.virtualbox.org/) or your preferred virtualization software and download the latest [Ubuntu Server Image](https://ubuntu.com/download/server) (Option 2).
 
 Once the virtualization software is installed create a new virtual machine for the Nextcloud server. Setting the VM's hard drive to dynamically allocated and limiting the size to whatever space is available on the physical hard drive at the time subtracting ~20gb for the host operating system.
 
@@ -95,6 +95,8 @@ Install FreeOTP+ or your chosen 2FA code generator from [Playstore](https://play
 
 Once your 2FA application is ready, go to the RealVNC website, sign in, and setup 2FA. 
 
+<br/>
+
 NOTE: If you are only configuring Nextcloud for a local network you can stop here. To access, type the Nextcloud server's IP address in a browser and follow the setup guide.
 
 <br/><br/>
@@ -102,12 +104,14 @@ NOTE: If you are only configuring Nextcloud for a local network you can stop her
 <h2>Exposing Server to the Internet</h2>
 
 ### NginX Reverse Proxy Virtual Machine
-Create a new virtual machine for the NginX Reverse Proxy. Set it up the same as the Nextcloud server with the hard drive as dynamically allocated with maximum of 8gb and the network mode "bridged".
+Create a new virtual machine for the NginX Reverse Proxy. Set it up the same as the Nextcloud server: hard drive dynamically allocated with a maximum of 8gb and the network mode to bridged.
 
 <br/>
 
 ### Reverse Proxy Server Setup
-Start up the reverse proxy server and go through the motions of installing ubuntu server, this time not selecting any snaps when prompted. Once logged in, install NginX with 
+Start up the reverse proxy server and go through the motions of installing ubuntu server, this time not selecting any snaps when prompted. Once installation is complete login and set a static IP for the VM. Refer to the nextcloud static IP for guidance.
+
+Once logged in, install NginX with 
 ```jsx
 sudo apt install nginx
 ```
@@ -173,12 +177,16 @@ In your router’s settings, configure port 80 to forward all traffic to the Ngi
 
 ### Static IP or Dynamic DNS
 ##### Option 1: Static IP & Domain Name
+This option requires that your internet service provider is delegating a static IP to your internet connection. This usually comes default on business lines and can be an optional extra for home connections. It additionally requires the ownership of a domain name.
+
 Configure A records in your domain's DNS configuration portal to point at your public static IP address. For help finding your public IP address click [here](https://www.whatismyip.com/).
 
 <br/>
 
 ##### Option 2: Dynamic DNS
 Free DynamicDNS services such as [NoIP](https://www.noip.com/) are available and may provide a suitable replacement for a domain name and static IP.
+
+This option is by no means ideal but can be a suitable work around for an environment without access to the requirements for the first solution.
 
 <br/><br/>
 
@@ -252,14 +260,14 @@ Navigate to your Nextcloud portal, go to Settings -> Personal -> Security. Scrol
 <br/>
 
 ### Calendar, Contact, and Task Syncronization Client
-Install DAVx⁵ from [Playstore](https://play.google.com/store/apps/details?id=at.bitfire.davdroid&hl=en_US&gl=US).
+Install DAVx⁵ from the [Playstore](https://play.google.com/store/apps/details?id=at.bitfire.davdroid&hl=en_US&gl=US).
 
 Once DAVx⁵ is installed, login to the app using a Nextcloud app code and allow the permissions you require. Once the app is finished configuring it will automatically sync all of your calendar events, contacts, and tasks with the phone's system apps.
 
 <br/>
 
 ### Recommended Applications
-A list of useful open-source Android applications that extend the usability of the Nextcloud server.
+A list of useful open source Android applications that extend the usability of the Nextcloud server.
 - Nextcloud Syncronization Client available on the [Playstore](https://play.google.com/store/apps/details?id=com.nextcloud.client&hl=en_US&gl=US)
 - Joplin Notes available on the [Playstore](https://play.google.com/store/apps/details?id=net.cozic.joplin&hl=en_US&gl=US)
 - Simple Calendar Pro available on the [Playstore](https://play.google.com/store/apps/details?id=com.simplemobiletools.calendar&hl=en_US&gl=Us)
