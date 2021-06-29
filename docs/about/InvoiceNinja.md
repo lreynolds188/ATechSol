@@ -7,4 +7,4 @@ InvoiceNinja is an incredibly versatile invoicing system built on, you guessed i
 
 [<img alt="InvoiceNinja Preview" src="/img/InvoiceNinja.png" />](https://www.invoiceninja.com/)
 
-To find out more about this invoicing utility and their hosting options you can visit their website [here](https://www.invoiceninja.com/).
+To find out more about this invoicing utility and their hosting options you can visit their commercial website [here](https://www.invoiceninja.com/) and organisation website [here](https://www.invoiceninja.org/).
