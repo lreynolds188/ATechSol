@@ -58,7 +58,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Service Providers',
+      label: 'Trusted Providers',
       items: [
         {
           'Hosting': [ 
