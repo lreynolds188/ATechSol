@@ -83,6 +83,7 @@ module.exports = {
         {
           'Marketing': [
             'about/Canva',
+            'about/SendGrid',
           ]
         },
       ],
