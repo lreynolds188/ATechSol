@@ -104,8 +104,8 @@ module.exports = {
         },
         {
           'Crypto Exchanges': [ 
-            'about/Binance',
             'about/Kraken',
+            'about/Binance',
             'about/Gemini',
           ],
         },
