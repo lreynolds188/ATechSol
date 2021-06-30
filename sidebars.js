@@ -22,8 +22,8 @@ module.exports = {
             'about/LibreOffice', 
             'about/Joplin', 
             'about/InvoiceNinja',
-            'about/VSCode',
             'about/Skiff',
+            'about/VSCode',
           ],
         },
         {
@@ -79,6 +79,11 @@ module.exports = {
           'Payment Systems': [
             'about/Stripe',
           ],
+        },
+        {
+          'Marketing': [
+            'about/Canva',
+          ]
         },
       ],
     },
