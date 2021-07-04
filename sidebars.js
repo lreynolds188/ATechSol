@@ -94,11 +94,6 @@ module.exports = {
       label: 'Cryptocurrency & Stocks',
       items: [
         {
-          'Market Tracking': [
-            'about/TradingView',
-          ],
-        },
-        {
           'Stock Exchanges': [
             'about/Stake',
           ],
