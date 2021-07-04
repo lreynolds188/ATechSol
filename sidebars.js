@@ -21,9 +21,10 @@ module.exports = {
           'Office Tools': [
             'about/LibreOffice', 
             'about/Skiff',
-            'about/Joplin', 
             'about/InvoiceNinja',
+            'about/Joplin', 
             'about/VSCode',
+            'about/Focalboard',
           ],
         },
         {
