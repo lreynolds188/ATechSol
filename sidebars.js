@@ -20,11 +20,9 @@ module.exports = {
         {
           'Office Tools': [
             'about/LibreOffice', 
-            'about/Skiff',
+            'about/Joplin',
             'about/InvoiceNinja',
-            'about/Joplin', 
-            'about/VSCode',
-            'about/Focalboard',
+            'about/Skiff',
           ],
         },
         {
@@ -34,6 +32,11 @@ module.exports = {
             'about/Tinkercad',
             'about/Cura',
           ],
+        },
+        {
+          'Development': [
+            'about/VSCode',
+            'about/Focalboard',
         },
         {
           'Desktop Operating Systems': [
