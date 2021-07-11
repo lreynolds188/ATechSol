@@ -37,6 +37,7 @@ module.exports = {
           'Development': [
             'about/VSCode',
             'about/Focalboard',
+          ]
         },
         {
           'Desktop Operating Systems': [
