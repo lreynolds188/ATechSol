@@ -130,6 +130,7 @@ module.exports = {
       label: 'Software',
       items: [
         'guides/Kubuntu',
+        'guides/MalwareScan'
       ],
     },
     {
