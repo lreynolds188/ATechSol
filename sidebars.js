@@ -83,8 +83,8 @@ module.exports = {
         },
         {
           'Payment Systems': [
-            'about/Stripe',
             'about/Square',
+            'about/Stripe',
           ],
         },
         {
