@@ -21,8 +21,9 @@ module.exports = {
           'Office Tools': [
             'about/LibreOffice', 
             'about/Joplin',
-            'about/InvoiceNinja',
             'about/Skiff',
+            'about/InvoiceNinja',
+            'about/UVdesk',
           ],
         },
         {
@@ -67,7 +68,7 @@ module.exports = {
       items: [
         {
           'Hosting': [ 
-            'about/DreamHost',
+            'about/NetRegistry',
             'about/Cloudflare', 
             'about/GitHub', 
             'about/Vercel',
