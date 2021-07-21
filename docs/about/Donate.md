@@ -3,7 +3,7 @@ id: Donate
 title: Donate
 ---
 
-If you appreciate the information and/or services we provide feel free to contact us or donate to our cause (an open source and informed world) and help keep this site running:<br/>
+If you appreciate the information and/or services we provide feel free to contact us or donate to our cause (a free, open source and educated world) and help keep this site running:<br/>
 
 ### Fiat
 [<img alt="Stripe" src="/img/stripe.png" />](https://buy.stripe.com/00g5lGaip3QI05G288)
