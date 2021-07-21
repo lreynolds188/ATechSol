@@ -84,7 +84,7 @@ module.exports = {
         {
           'Payment Systems': [
             'about/Stripe',
-            'about/PayPal',
+            'about/Square',
           ],
         },
         {
