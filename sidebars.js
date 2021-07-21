@@ -135,6 +135,13 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Security',
+      items: [
+        'guides/MalwareScan',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Online Infrastructure',
       items: [
         'guides/Nextcloud',
