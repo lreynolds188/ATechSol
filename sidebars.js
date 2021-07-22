@@ -68,7 +68,7 @@ module.exports = {
       items: [
         {
           'Hosting': [ 
-            'about/NetRegistry',
+            'about/Webcentral',
             'about/Cloudflare', 
             'about/GitHub', 
             'about/Vercel',
