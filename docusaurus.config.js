@@ -42,6 +42,11 @@ module.exports = {
           to: 'docs/about/Contact',
           position: 'left',
         },
+        {
+          label: 'Donate',
+          to: 'docs/about/Donate',
+          position: 'left',
+        },
       ],
     },
     footer: {
