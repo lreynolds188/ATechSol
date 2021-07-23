@@ -38,6 +38,7 @@ module.exports = {
           'Development': [
             'about/VSCode',
             'about/Focalboard',
+            'about/Mattermost',
           ]
         },
         {
