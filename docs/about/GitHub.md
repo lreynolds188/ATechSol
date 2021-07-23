@@ -1,6 +1,7 @@
 ---
 id: GitHub
 title: GitHub
+tags: ATechSol, GitHub, Source, Control, Repository, Hosted, Development
 ---
 
 GitHub, owned by Microsoft, is the largest source control and hosting platform available on the market today. It can aid in managing the development process as well as host website documents for free.

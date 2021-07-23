@@ -1,6 +1,7 @@
 ---
 id: Kraken
 title: Kraken
+tags: ATechSol, Kraken, Blockchain, Crypto, Cryptocurrency, Exchange, Staking
 ---
 
 Kraken is currently our most trusted choice for cryptocurrency exchanges. They offer great support, a large selection of tokens, reasonable fees and seamless purchasing, withdrawals, and staking.

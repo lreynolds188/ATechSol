@@ -1,6 +1,7 @@
 ---
 id: Vercel
 title: Vercel
+tags: ATechSol, Vercel, Deployment, React, Node.js, Implementation
 ---
 
 Vercel is a Node.js and React based platform that allows for simple implementation and deployment of websites hosted on GitHub to your own custom domains.

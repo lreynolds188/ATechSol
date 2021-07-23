@@ -1,6 +1,7 @@
 ---
 id: Thingiverse
 title: Thingiverse
+tags: ATechSol, Thingiverse, 3D, Models, Archive
 ---
 
 Thingiverse is an online archive of 3D models freely available to download, modify, and print at your convenience.

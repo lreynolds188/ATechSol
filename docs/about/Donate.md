@@ -1,6 +1,7 @@
 ---
 id: Donate
 title: Donate
+tags: ATechSol, Donate, Free, Open, Source, Educated
 ---
 
 If you appreciate the information and/or services we provide feel free to contact us or donate to our cause (a free, open source, and educated world) and help keep this site running:<br/>

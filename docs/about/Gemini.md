@@ -1,6 +1,7 @@
 ---
 id: Gemini
 title: Gemini
+tags: ATechSol, Gemini, Crypto, Cryptocurrency, Blockchain, Exchange, Brave, Creators
 ---
 
 Gemini is a good exchange for Brave Creators as it allows these services to directly connect making redemption of rewards automated and withdrawal of funds easy and reliable.

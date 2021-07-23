@@ -1,6 +1,7 @@
 ---
 id: Welcome
 title: Welcome
+tags: ATechSol, Welcome
 ---
 
 Here you can find a list of the free and open source software solutions and respectable service providers we have discovered in our search for information privacy, security, and freedom from big tech.

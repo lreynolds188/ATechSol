@@ -1,6 +1,7 @@
 ---
 id: VSCode
 title: Visual Studio Code
+tags: ATechSol, VSCode, Microsoft, Editor, Debugging, Extensions, Source, Control
 ---
 
 Visual Studio Code is an open source text editor developed by Microsoft that is incredibly versatile and compact. Available on all desktop systems it features a wide range of functionality from general file editing to source control and debugging. It also has a large community developed and maintained extension library. 

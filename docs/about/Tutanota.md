@@ -1,6 +1,7 @@
 ---
 id: Tutanota
 title: Tutanota
+tags: ATechSol, Tutanota, Privacy, Email, Encrypted
 ---
 
 Tutanota is an open source end-to-end encrypted emailing service. They offer a mail client that is available on all desktop and mobile devices and are the second largest provider of privacy based emailing. Their service combines all of the features we come to expect like custom domains, alias', encrypted calendar/contacts, and much more at a respectable price.

@@ -1,6 +1,7 @@
 ---
 id: Signal
 title: Signal
+tags: ATechSol, Signal, Open, Source, Privacy, Messenger, Encryption, Call, Text, Video
 ---
 
 Signal is an open source end-to-end encrypted messaging service. Available on all desktop and mobile devices it includes all of the features we come to love from a messaging service in todays modern era such as text, call, and video as well as gifs, emoticons, group meetings, and much more.

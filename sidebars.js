@@ -114,6 +114,7 @@ module.exports = {
           'Crypto Exchanges': [ 
             'about/Kraken',
             'about/Gemini',
+            'about/CoinSpot',
           ],
         },
         {
@@ -121,6 +122,7 @@ module.exports = {
             'about/Ledger',
             'about/Yoroi',
             'about/MyEtherWallet',
+            'about/Solar',
         ],
         },
       ],

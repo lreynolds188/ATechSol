@@ -1,7 +1,7 @@
 ---
 id: Mattermost
 title: Mattermost
-tags: Mattermost, Slack, Team, Development
+tags: ATechSol, Mattermost, Slack, Team, Development, Open, Source
 ---
 
 Mattermost is an open source privacy conscious team collaboration platform similar to Slack. It can be self-hosted from your server at no cost or hosted in the cloud on a subscription and is available on all mobile and desktop systems. Written in Golang and React it features a clean and simple to use interface that allows your team to collaborate, communicate, and plan seamlessly.

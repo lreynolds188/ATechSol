@@ -1,10 +1,10 @@
 ---
 id: Focalboard
 title: Focalboard
-tags: Focalboard, Kanban, Notes, Team, Development
+tags: ATechSol, Focalboard, Kanban, Notes, Team, Development
 ---
 
-Focalboard is an open source project management tool available on Linux, Windows, and Mac. It can be self-hosted from your server or run from a standalone desktop for personal use. Featuring a clean and simple to use kanban style interface for all your teams collaboration needs.
+Focalboard is an open source project management tool available on Linux, Windows, and Mac. It can be self-hosted from your server or run from a standalone desktop for personal use. Featuring a clean and simple to use Kanban style interface for all your teams collaboration needs.
 
 [<img alt="Focalboard Preview" src="/img/Focalboard.png" />](https://www.focalboard.com/)
 

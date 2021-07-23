@@ -1,6 +1,7 @@
 ---
 id: Stripe
 title: Stripe
+tags: ATechSol, Stripe, Online, Payment, System
 ---
 
 Stripe is an online payment network similar to the likes of PayPal. They offer a large array of different payment options and solutions to meet your needs. Data analytics are also available for graph and report generation.

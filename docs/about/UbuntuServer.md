@@ -1,7 +1,7 @@
 ---
 id: UbuntuServer
 title: Ubuntu Server
-tags: Ubuntu, Server, Operating, System
+tags: ATechSol, Ubuntu, Server, Operating, System
 ---
 
 Ubuntu Server is a stripped out version of Ubuntu's Desktop operating system. It features a command line interface to reduce demands on the system and optional server packages that can be installed in the initial setup stage.

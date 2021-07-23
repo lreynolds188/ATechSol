@@ -1,6 +1,7 @@
 ---
 id: UVdesk
 title: UVdesk
+tags: ATechSol, UVdesk, helpdesk, ticket, system, open, source
 ---
 
 Description coming soon.

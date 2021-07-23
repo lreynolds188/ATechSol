@@ -1,6 +1,7 @@
 ---
 id: Joplin
 title: Joplin
+tags: ATechSol, Joplin, Open, Source, Notes, Markdown, Self, Hosted, Cloud, Tasks
 ---
 
 Joplin is an open source notes and tasks application that uses markdown language and supports self-hosted integration with Nextcloud among other online cloud utilities. It is available on all desktop and mobile devices and returns the control of your personal and private information back into your hands.

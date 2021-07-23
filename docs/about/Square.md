@@ -1,6 +1,7 @@
 ---
 id: Square
 title: Square
+tags: ATechSol, Square, Online, Payment, System
 ---
 
 Description coming soon.

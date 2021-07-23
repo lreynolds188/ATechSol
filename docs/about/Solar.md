@@ -1,6 +1,7 @@
 ---
 id: Solar
 title: Solar
+tags: ATechSol, Solar, Crypto, Cryptocurrency, Blockchain, DeFi, Wallet
 ---
 
 Description coming soon.

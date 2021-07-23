@@ -1,6 +1,7 @@
 ---
 id: Tinkercad
 title: Tinkercad
+tags: ATechSol, Tinkercad, 3D, Modeling
 ---
 
 Tinkercad is a versatile online 3D modeling utility. It is free and simple to use and makes creating or modifying 3D models for printing a breeze.
