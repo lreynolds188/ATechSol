@@ -8,7 +8,9 @@ module.exports = {
   themeConfig: {
     colorMode: {
       defaultMode: 'dark',
+      defaultDarkMode: true,
       disableSwitch: true,
+      disableLightMode: true,
       respectPrefersColorScheme: false,
     },
     navbar: {
