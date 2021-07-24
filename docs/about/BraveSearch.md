@@ -8,4 +8,4 @@ Brave Search is currently in open beta and is already performing above expectati
 
 [<img alt="Brave Search Preview" src="/img/BraveSearch.png" />](https://brave.com/search/)
 
-To find out more about this search engine or signup for early access you can visit their website [here](https://brave.com/search/).
+To find out more about this search engine or sign up for early access you can visit their website [here](https://brave.com/search/).
