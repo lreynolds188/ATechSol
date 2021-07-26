@@ -15,13 +15,14 @@ module.exports = {
           'Communications': [
             'about/Signal',
             'about/Tutanota',
+            'about/ProtonMail',
           ],
         },
         {
           'Office Tools': [
             'about/LibreOffice', 
-            'about/Joplin',
             'about/Skiff',
+            'about/Joplin',
             'about/InvoiceNinja',
             'about/UVdesk',
           ],
@@ -92,6 +93,12 @@ module.exports = {
           'Marketing': [
             'about/Canva',
             'about/SendGrid',
+          ]
+        },
+        {
+          'VPN': [
+            'NordVPN',
+            'ProtonVPN',
           ]
         },
       ],
