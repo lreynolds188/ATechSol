@@ -1,6 +1,6 @@
 ---
-id: NordVPN
-title: NordVPN
+id: ProtonVPN
+title: ProtonVPN
 tags: ATechSol, ProtonVPN, VPN, Virtual, Private, Network
 ---
 
