@@ -97,8 +97,8 @@ module.exports = {
         },
         {
           'VPN': [
-            'NordVPN',
-            'ProtonVPN',
+            'about/NordVPN',
+            'about/ProtonVPN',
           ]
         },
       ],
