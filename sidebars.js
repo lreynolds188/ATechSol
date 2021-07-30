@@ -70,7 +70,7 @@ module.exports = {
       items: [
         {
           'Hosting': [ 
-            'about/Webcentral',
+            'about/GoDaddy',
             'about/Cloudflare', 
             'about/GitHub', 
             'about/Vercel',
