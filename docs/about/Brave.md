@@ -10,4 +10,6 @@ This project shows great promise though there are still some issues to be resolv
 
 [<img alt="Brave Browser Preview" src="/img/BraveBrowser.png" />](https://brave.com)
 
+We recommend against opting in to Brave Ads until another exchange is supported as I have heard and experienced nothing good from Uphold.
+
 To find out more about this web browser you can visit their website [here](https://brave.com).
