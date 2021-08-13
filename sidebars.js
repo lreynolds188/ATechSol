@@ -78,12 +78,6 @@ module.exports = {
           ],
         },
         {
-          'Search Engines': [
-            'about/BraveSearch',
-            'about/DuckDuckGo',
-          ],
-        },
-        {
           'Payment Systems': [
             'about/Square',
             'about/Stripe',
@@ -95,13 +89,29 @@ module.exports = {
             'about/SendGrid',
           ]
         },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Privacy & Security',
+      items: [
+        {
+          'Search Engines': [
+            'about/BraveSearch',
+            'about/DuckDuckGo',
+          ],
+        },
         {
           'VPN': [
             'about/NordVPN',
             'about/ProtonVPN',
           ]
         },
-      ],
+        {
+          'Password Managers': [
+          ]
+        },
+      ]
     },
     {
       type: 'category',
