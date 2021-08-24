@@ -107,7 +107,7 @@ module.exports = {
           ]
         },
         {
-          'Password Managers': [
+          'Password Manager': [
             'about/BitWarden',
           ],
         },
