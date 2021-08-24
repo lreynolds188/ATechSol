@@ -3,7 +3,7 @@ id: Support
 title: Support
 ---
 
-We are available for all your general and specialised technical support needs including guided tutoring. We charge a flat $70 an hour fee (half hour increments after the first hour).
+We are available for all your general and specialised technical support needs including guided tutoring. We charge a flat $80 an hour fee (half hour increments after the first hour).
 
 <img alt="Support banner" src="/img/Support.jpg" />
 
