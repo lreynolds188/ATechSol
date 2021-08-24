@@ -15,7 +15,6 @@ module.exports = {
           'Communications': [
             'about/Signal',
             'about/Tutanota',
-            'about/ProtonMail',
           ],
         },
         {
@@ -109,7 +108,8 @@ module.exports = {
         },
         {
           'Password Managers': [
-          ]
+            'about/BitWarden',
+          ],
         },
       ]
     },
