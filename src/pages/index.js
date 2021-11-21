@@ -8,11 +8,11 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Information & Support</>,
+    title: <>Open Source Software</>,
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Our goal is to deliver the highest quality and simplest solutions to a range of technical and operating issues along with a guided explanation that will help you and your team understand and resolve them in the future.
+        Open source software solutions for all your needs.
       </>
     ),
   },
@@ -21,16 +21,16 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        All of our solutions are tailored to meet your needs with emphasis on the privacy and security of your business and personal data.
+        Freedom from big tech with focus on privacy and security
       </>
     ),
   },
   {
-    title: <>Affordable & Efficient</>,
+    title: <>Stocks and Cryptocurrency</>,
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Improving productivity and cutting costs by removing unnecessary products, services, and dependencies with the use of open source utilities, respectable providers, and custom built automation devices.
+        Financial alternatives with stocks and cryptocurrency.
       </>
     ),
   },

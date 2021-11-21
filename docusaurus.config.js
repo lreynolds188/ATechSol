@@ -1,6 +1,6 @@
 module.exports = {
   title: 'ATechSol',
-  tagline: 'We help solve problems and show you how',
+  tagline: 'Open source and privacy based solutions',
   url: 'https://atechsol.com.au',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -53,11 +53,6 @@ module.exports = {
         {
           label: 'Guides',
           to: 'docs/guides/Welcome',
-          position: 'left',
-        },
-        {
-          label: 'Services',
-          to: 'docs/services/Implementation',
           position: 'left',
         },
         {
