@@ -156,16 +156,16 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Security',
+      label: 'Online Infrastructure',
       items: [
-        'guides/MalwareScan',
+        'guides/Nextcloud',
       ],
     },
     {
       type: 'category',
-      label: 'Online Infrastructure',
+      label: 'Security',
       items: [
-        'guides/Nextcloud',
+        'guides/MalwareScan',
       ],
     },
     {
