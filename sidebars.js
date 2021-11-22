@@ -176,10 +176,4 @@ module.exports = {
       ],
     },
   ],
-  services: [
-    'services/Implementation',
-    'services/Information',
-    'services/Support',
-    'services/Automation',
-  ]
 };
