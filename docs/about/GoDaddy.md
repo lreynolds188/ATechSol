@@ -4,7 +4,7 @@ title: GoDaddy
 tags: ATechSol, GoDaddy, Domain, Registrar
 ---
 
-Description coming soon.
+GoDaddy is one of the best domain registrar's for .com.au type domains. Featuring excellent pricing, free privacy protection, and much more.
 
 [<img alt="GoDaddy Website" src="/img/GoDaddy.png" />](https://www.godaddy.com.au/)
 

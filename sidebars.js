@@ -31,6 +31,7 @@ module.exports = {
             'about/Krita',
             'about/Thingiverse',
             'about/Tinkercad',
+            'about/Blender',
             'about/Cura',
           ],
         },
@@ -78,6 +79,7 @@ module.exports = {
         },
         {
           'Payment Systems': [
+            'about/Zeller',
             'about/Square',
             'about/Stripe',
           ],
@@ -131,7 +133,7 @@ module.exports = {
           'Crypto Exchanges': [ 
             'about/Kraken',
             'about/Gemini',
-            'about/CoinSpot',
+            'about/Binance',
           ],
         },
         {
