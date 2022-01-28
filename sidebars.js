@@ -56,6 +56,7 @@ module.exports = {
         },
         {
           'Server & Maintenance': [
+            'about/ProxMox',
             'about/VirtualBox',
             'about/UbuntuServer',
             'about/Nextcloud',
@@ -81,7 +82,6 @@ module.exports = {
           'Payment Systems': [
             'about/Zeller',
             'about/Square',
-            'about/Stripe',
           ],
         },
         {
