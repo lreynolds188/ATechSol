@@ -1,6 +1,6 @@
 ---
-id: RealVNC
-title: RealVNC
+id: AnyDesk
+title: AnyDesk
 tags: ATechSol, AnyDesk, VNC, Remote, Server, Viewer, Open, Source, Access, Maintenance
 ---
 
