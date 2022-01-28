@@ -4,7 +4,7 @@ title: Blender
 tags: ATechSol, Blender, 3D, Modeling
 ---
 
-Blender is an incredibly high powered open source 3D modeling suite. Simiilar in purpose to TinkerCad but with far more functionality and a steeper learning curve.
+Blender is an incredibly high powered open source 3D modeling suite. It can be used to create animated films, visual effects, art, 3D printed models, virtual reality, and computer games. 
 
 [<img alt="Blender Preview" src="/img/Blender.png" />](https://www.blender.org/)
 

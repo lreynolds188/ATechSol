@@ -29,9 +29,9 @@ module.exports = {
         {
           '2D/3D Modeling': [
             'about/Krita',
+            'about/Blender',
             'about/Thingiverse',
             'about/Tinkercad',
-            'about/Blender',
             'about/Cura',
           ],
         },
