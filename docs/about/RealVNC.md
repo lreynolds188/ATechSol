@@ -1,6 +1,6 @@
 ---
 id: RealVNC
-title: RealVNC Viewer & Server
+title: RealVNC
 tags: ATechSol, RealVNC, VNC, Remote, Server, Viewer, Open, Source, Access, Maintenance
 ---
 

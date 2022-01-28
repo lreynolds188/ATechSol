@@ -55,6 +55,12 @@ module.exports = {
           ],
         },
         {
+          'Remote Access': [
+            'about/RealVNC',
+            'about/AnyDesk',
+          ]
+        },
+        {
           type: 'category',
           label: 'Server',
           items: [
@@ -69,7 +75,7 @@ module.exports = {
               'Services': [
                 'about/Nextcloud',
                 'about/Jellyfin',
-                'about/RealVNC',
+                'about/Pi-hole',
               ]
             },            
           ],
