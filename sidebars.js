@@ -97,8 +97,8 @@ module.exports = {
         },
         {
           'Payment Systems': [
-            'about/Zeller',
             'about/Square',
+            'about/Zeller',
           ],
         },
         {
@@ -127,7 +127,7 @@ module.exports = {
         },
         {
           'Password Manager': [
-            'about/BitWarden',
+            'about/Bitwarden',
           ],
         },
       ]

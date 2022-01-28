@@ -4,7 +4,7 @@ title: ProtonVPN
 tags: ATechSol, ProtonVPN, VPN, Virtual, Private, Network
 ---
 
-Description coming soon.
+ProtonVPN is another good VPN service like NordVPN with a slightly higher price point and is based in Geneva with the protection of Swiss privacy laws. 
 
 [<img alt="ProtonVPN Website Preview" src="/img/ProtonVPN.png" />](https://protonvpn.com/)
 
