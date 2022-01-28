@@ -56,7 +56,7 @@ module.exports = {
         },
         {
           'Server & Maintenance': [
-            'about/ProxMox',
+            'about/Proxmox',
             'about/VirtualBox',
             'about/UbuntuServer',
             'about/Nextcloud',
