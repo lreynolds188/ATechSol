@@ -55,12 +55,23 @@ module.exports = {
           ],
         },
         {
-          'Server & Maintenance': [
-            'about/Proxmox',
-            'about/VirtualBox',
-            'about/UbuntuServer',
-            'about/Nextcloud',
-            'about/RealVNC',
+          type: 'category',
+          label: 'Server',
+          items: [
+            {
+              'Virtualisation': [
+                'about/Proxmox',
+                'about/VirtualBox',
+                'about/UbuntuServer',
+              ]
+            },
+            {
+              'Services': [
+                'about/Nextcloud',
+                'about/Jellyfin',
+                'about/RealVNC',
+              ]
+            },            
           ],
         },
       ],
