@@ -40,7 +40,7 @@ module.exports = {
             'about/VSCode',
             'about/Focalboard',
             'about/Mattermost',
-          ]
+          ],
         },
         {
           'Desktop Operating Systems': [
@@ -58,7 +58,7 @@ module.exports = {
           'Remote Access': [
             'about/RealVNC',
             'about/AnyDesk',
-          ]
+          ],
         },
         {
           type: 'category',
