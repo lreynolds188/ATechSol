@@ -170,12 +170,5 @@ module.exports = {
         'guides/MalwareScan',
       ],
     },
-    {
-      type: 'category',
-      label: 'Crypto & Stocks',
-      items: [
-        'guides/Ledger',
-      ],
-    },
   ],
 };
