@@ -55,12 +55,6 @@ module.exports = {
           ],
         },
         {
-          'Remote Access': [
-            'about/RealVNC',
-            'about/AnyDesk',
-          ],
-        },
-        {
           type: 'category',
           label: 'Server',
           items: [
@@ -128,6 +122,17 @@ module.exports = {
         {
           'Password Manager': [
             'about/Bitwarden',
+          ],
+        },
+        {
+          '2-Factor Authentication': [
+            'about/YubiKey',
+          ],
+        },
+        {
+          'Remote Access': [
+            'about/RealVNC',
+            'about/AnyDesk',
           ],
         },
       ]
