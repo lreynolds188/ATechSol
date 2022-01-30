@@ -20,6 +20,6 @@ Once the utility is installed plug in your YubiKey device and run the following 
 
 <br/>
 
-Select the corrupted key from the list (usually the last one) and delete it. Once the corrupted key is removed the device should function as normal.
+Find the corrupted key in the list (usually the last one) and delete it by replacing value with the record to be removed. Once the corrupted key is removed the device should function as normal.
 
-<code>ykman oath delete </code>
+<code>ykman oath delete value</code>

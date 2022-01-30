@@ -1,6 +1,6 @@
 ---
 id: Kubuntu
-title: Kubuntu/Ubuntu Installation
+title: OS Installation Kubuntu 20.04
 ---
 
 <i>8 June, 2021, Luke Reynolds</i><br/>

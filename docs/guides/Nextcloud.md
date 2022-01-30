@@ -13,19 +13,19 @@ In my pursuit to find a self-hosted replacement for my current cloud based provi
 [<img alt="Nextcloud UI Preview" src="/img/NextcloudUI.png" />](https://nextcloud.com/)
 
 ##### Requirements (Local Connection)
-1. A computer to use as a server (I'm using an old Surface Pro).
-
-2. Access to a router.
+1. A computer to use as a server
 
 <br/>
 
 ##### Optional Requirements (Internet Connection)
+2. Access to your router's interface.
+
 3. A static IP and domain name or dynamicDNS.
 
 <!--truncate-->
 
 <br/><br/>
-
+3OJNXJUSMQIMFBK47PNHYRMMKU2ISGBN
 <h2>Local Cloud Setup</h2>
 
 ### Nextcloud Virtual Machine
