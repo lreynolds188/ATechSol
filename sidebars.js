@@ -190,6 +190,7 @@ module.exports = {
       label: 'Security',
       items: [
         'guides/MalwareScan',
+        'guides/YubiKeyManager',
       ],
     },
   ],
