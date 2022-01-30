@@ -127,6 +127,7 @@ module.exports = {
         {
           '2-Factor Authentication': [
             'about/YubiKey',
+            'about/FreeOTP',
           ],
         },
         {
