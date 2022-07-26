@@ -85,10 +85,6 @@ module.exports = {
               label: 'Contact',
               to: 'docs/about/Contact',
             },
-            {
-              label: 'Donate',
-              to: 'docs/about/Donate',
-            },
           ],
         },
       ],
