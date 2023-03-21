@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://atechsol.com.au',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'ATechSol', // Usually your GitHub org/user name.
+//  organizationName: 'ATechSol', // Usually your GitHub org/user name.
   themeConfig: {
     colorMode: {
       // "light" | "dark"
