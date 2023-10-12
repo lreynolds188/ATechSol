@@ -14,7 +14,6 @@ module.exports = {
           'Communications': [
             'about/Signal',
             'about/Protonmail',
-            'about/Tutanota',
           ],
         },
         {
