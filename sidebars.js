@@ -124,7 +124,8 @@ module.exports = {
           ],
         },
         {
-          'Remote Access': {
+          'Remote Access': [
+            'about/Wireguard',
             'about/RealVNC',
           ],
         },
