@@ -13,7 +13,7 @@ module.exports = {
         {
           'Communications': [
             'about/Signal',
-            'about/Protonmail,
+            'about/Protonmail',
             'about/Tutanota',
           ],
         },
