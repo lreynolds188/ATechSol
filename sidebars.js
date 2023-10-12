@@ -7,21 +7,19 @@ module.exports = {
       items: [
         {
           'Web Browsers': [
-            'about/Brave',
             'about/Firefox',
           ],
         },
         {
           'Communications': [
             'about/Signal',
+            'about/Protonmail,
             'about/Tutanota',
           ],
         },
         {
           'Office Tools': [
             'about/LibreOffice', 
-            'about/Skiff',
-            'about/Joplin',
             'about/InvoiceNinja',
             'about/UVdesk',
           ],
@@ -44,14 +42,12 @@ module.exports = {
         },
         {
           'Desktop Operating Systems': [
-            'about/Kubuntu', 
-            'about/Ubuntu',
+            'about/Debian',
           ],
         },
         {
           'Mobile Operating Systems': [
-            'about/GrapheneOS', 
-            'about/UbuntuTouch',
+            'about/GrapheneOS',
           ],
         },
         {
@@ -62,7 +58,7 @@ module.exports = {
               'Virtualisation': [
                 'about/Proxmox',
                 'about/VirtualBox',
-                'about/UbuntuServer',
+                'about/Debian',
               ]
             },
             {
@@ -109,13 +105,11 @@ module.exports = {
       items: [
         {
           'Search Engines': [
-            'about/BraveSearch',
             'about/DuckDuckGo',
           ],
         },
         {
           'VPN': [
-            'about/NordVPN',
             'about/ProtonVPN',
           ]
         },
@@ -131,9 +125,9 @@ module.exports = {
           ],
         },
         {
-          'Remote Access': [
+          'Remote Access': {
+            'about/Wireguard',
             'about/RealVNC',
-            'about/AnyDesk',
           ],
         },
       ]
@@ -155,15 +149,14 @@ module.exports = {
         {
           'Crypto Exchanges': [ 
             'about/Kraken',
-            'about/Gemini',
             'about/Binance',
           ],
         },
         {
           'Crypto Wallets': [
             'about/Ledger',
-            'about/Yoroi',
             'about/MyEtherWallet',
+            'about/Yoroi',
         ],
         },
       ],
@@ -175,7 +168,7 @@ module.exports = {
       type: 'category',
       label: 'Software',
       items: [
-        'guides/Kubuntu',
+        'guides/Debian',
       ],
     },
     {
