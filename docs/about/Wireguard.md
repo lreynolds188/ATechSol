@@ -1,6 +1,6 @@
 ---
-id: Binance
-title: Binance
+id: Wireguard
+title: Wireguard
 tags: ATechSol, Wireguard, VPN
 ---
 
